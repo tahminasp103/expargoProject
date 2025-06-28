@@ -1,0 +1,222 @@
+.contact {
+  width: 100%;
+  position: relative;
+  top: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+}
+.contact .container h2 {
+  color: rgb(35, 35, 35);
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+}
+.contact .container span {
+  color: rgb(78, 0, 142);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.contact .container .cards {
+  width: 80%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.contact .container .cards .card {
+  width: 49%;
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 15px rgba(128, 128, 129, 0.15);
+}
+.contact .container .cards .card img {
+  margin-top: 30px;
+}
+.contact .container .cards .card p {
+  width: 53%;
+  color: rgb(133, 133, 133);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact .container .cards .card strong {
+  color: black;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  margin-top: 30px;
+}
+.contact .container .cards .card span {
+  color: black;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.contact .container .cards .card a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .container .cards .card a span {
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.contact .container .cards .card a svg {
+  font-size: 35px;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid rgba(78, 0, 142, 0.2);
+}
+.contact .container .cards .card .line {
+  margin-bottom: 30px;
+}
+.contact .container .cards .card a p {
+  width: 100%;
+  color: rgb(133, 133, 133);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .contact .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .container h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .contact .container span {
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+  }
+  .contact .container .cards {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact .container .cards .card {
+    width: 100%;
+  }
+  .contact .container .cards .card p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .contact .container .cards .card strong {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .contact .container .cards .card span {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .contact .container .cards .card a span {
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  .contact .container .cards .card a svg {
+    margin: 0 10px;
+  }
+  .contact .container .cards .card .line {
+    margin-bottom: 30px;
+  }
+  .contact .container .cards .card a p {
+    width: 100%;
+    color: rgb(133, 133, 133);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .contact .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .container h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .contact .container span {
+    font-size: 15px;
+    line-height: 20px;
+    width: 100%;
+  }
+  .contact .container .cards {
+    width: 100%;
+    padding: 30px;
+  }
+  .contact .container .cards .card {
+    width: 48%;
+  }
+  .contact .container .cards .card p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .contact .container .cards .card strong {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .contact .container .cards .card span {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .contact .container .cards .card a span {
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  .contact .container .cards .card a svg {
+    margin: 0 10px;
+  }
+  .contact .container .cards .card .line {
+    margin-bottom: 30px;
+  }
+  .contact .container .cards .card a p {
+    width: 100%;
+    color: rgb(133, 133, 133);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

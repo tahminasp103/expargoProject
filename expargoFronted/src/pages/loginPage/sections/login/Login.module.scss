@@ -1,0 +1,512 @@
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+        .expargoLogin {
+            width: 80%;
+            background-color: rgb(242, 242, 242);
+            height: 100vh;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+
+            .loginContainer {
+                width: 80%;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+
+                .img {
+                    width: 45%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 30px;
+
+                    img {
+                        margin-top: 30px;
+                        width: 45%;
+                    }
+
+                    p {
+
+                        color: rgb(42, 43, 42);
+                        font-weight: 700;
+                        font-size: 14px;
+                        margin: 15px 0;
+                        text-align: center;
+                        line-height: normal;
+
+                    }
+                }
+
+                .login {
+                    display: flex;
+                    justify-content: space-between;
+
+                    img {
+                        width: 45%;
+                    }
+
+                    .expargologinContainer {
+                        width: 40%;
+
+                        .loginBtn1 {
+                            width: 100%;
+                            height: 60px;
+                            border-radius: 10px;
+                            margin: 0 auto;
+                            gap: 5px;
+                            font-family: "Inter", sans-serif;
+                            font-size: 20px;
+                            font-weight: 500;
+                            color: white;
+                            background-color: rgb(78, 0, 142);
+                            transition: all 0.2s ease-in;
+                            border: none;
+                            margin: 10px 0;
+
+                            &:hover {
+                                background-color: rgb(96, 26, 153);
+                                cursor: pointer;
+
+                            }
+                        }
+
+                        .loginBtn2 {
+                            width: 100%;
+                            height: 60px;
+                            border-radius: 10px;
+                            margin: 0 auto;
+                            border: 1px solid rgb(78, 0, 142);
+                            background-color: transparent;
+                            font-family: "Inter", sans-serif;
+                            font-size: 18px;
+                            font-weight: 500;
+                            color: rgb(78, 0, 142);
+                            transition: all 0.3s ease-in;
+
+                            &:hover {
+                                color: rgb(149, 102, 187);
+                                cursor: pointer;
+                                border: 1px solid rgb(149, 102, 187);
+
+                            }
+
+                        }
+
+                        .cards {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin: 30px 0;
+
+                            .card {
+                                width: 28%;
+
+                                svg {
+                                    width: 100%;
+                                    height: 100px;
+                                    border-radius: 10px;
+                                    color: rgb(78, 0, 142);
+                                    padding: 25px;
+                                    background-color: white;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+
+                                h4 {
+                                    color: rgb(42, 43, 42);
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    text-align: center;
+                                    line-height: normal;
+                                    margin: 15px 0 30px 0;
+                                }
+                            }
+                        }
+
+                        h2 {
+                            color: rgb(42, 43, 42);
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 20px;
+                            text-align: center;
+
+                            &:hover {
+                                color: rgb(122, 123, 123);
+                            }
+                        }
+
+                        p {
+                            color: rgb(42, 43, 42);
+                            font-weight: 600;
+                            font-size: 14px;
+                            padding: 30px;
+                            line-height: 14px;
+                            text-align: center;
+
+                            &:hover {
+                                color: rgb(122, 123, 123);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+
+                span {
+                    margin: 30px ;
+                    text-align: center;
+                    color: black;
+                    font-weight: 400;
+                    font-size: 15px;
+
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .login {
+    .container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+
+      .menu {
+        display: none;
+      }
+
+      .expargoLogin {
+        width: 100%;
+        height: auto;
+        background-color: rgb(242, 242, 242);
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+
+        .loginContainer {
+          width: 100%;
+          max-width: 420px;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .img {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+
+            img {
+              width: 60%;
+              max-width: 200px;
+              margin-top: 20px;
+            }
+
+            p {
+              color: rgb(42, 43, 42);
+              font-weight: 700;
+              font-size: 14px;
+              margin: 15px 0;
+              text-align: center;
+              line-height: normal;
+            }
+          }
+
+          .login {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+              width: 80%;
+              margin: 0 auto;
+            }
+
+            .expargologinContainer {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              .loginBtn1,
+              .loginBtn2 {
+                width: 100%;
+                height: 55px;
+                border-radius: 10px;
+                margin: 15px 0;
+                font-size: 16px;
+              }
+
+              .loginBtn2 {
+                border: 1px solid rgb(78, 0, 142);
+                background-color: transparent;
+                color: rgb(78, 0, 142);
+                font-weight: 500;
+                transition: all 0.3s ease-in;
+
+                &:hover {
+                  color: rgb(149, 102, 187);
+                  border-color: rgb(149, 102, 187);
+                  cursor: pointer;
+                }
+              }
+
+              .cards {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+                margin: 30px 0;
+
+                .card {
+                  width: 45%;
+                  max-width: 150px;
+
+                  svg {
+                    width: 100%;
+                    height: 100px;
+                    border-radius: 10px;
+                    color: rgb(78, 0, 142);
+                    padding: 25px;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+
+                  h4 {
+                    color: rgb(42, 43, 42);
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-align: center;
+                    margin: 10px 0;
+                  }
+                }
+              }
+
+              h2 {
+                color: rgb(42, 43, 42);
+                font-weight: 600;
+                font-size: 18px;
+                text-align: center;
+
+                &:hover {
+                  color: rgb(122, 123, 123);
+                }
+              }
+
+              p {
+                color: rgb(42, 43, 42);
+                font-weight: 600;
+                font-size: 14px;
+                padding: 20px 10px;
+                text-align: center;
+
+                &:hover {
+                  color: rgb(122, 123, 123);
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+
+          span {
+            margin-top: 20px;
+            text-align: center;
+            color: black;
+            font-weight: 400;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .login {
+    .container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+
+      .menu {
+        display: none;
+      }
+
+      .expargoLogin {
+        width: 100%;
+        height: auto;
+        background-color: rgb(242, 242, 242);
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+
+        .loginContainer {
+          width: 100%;
+          max-width: 420px;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .img {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+
+            img {
+              width: 60%;
+              max-width: 200px;
+              margin-top: 20px;
+            }
+
+            p {
+              color: rgb(42, 43, 42);
+              font-weight: 700;
+              font-size: 14px;
+              margin: 15px 0;
+              text-align: center;
+              line-height: normal;
+            }
+          }
+
+          .login {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+              width: 80%;
+              margin: 0 auto;
+            }
+
+            .expargologinContainer {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+
+              .loginBtn1,
+              .loginBtn2 {
+                width: 100%;
+                height: 55px;
+                border-radius: 10px;
+                margin: 15px 0;
+                font-size: 16px;
+              }
+
+              .loginBtn2 {
+                border: 1px solid rgb(78, 0, 142);
+                background-color: transparent;
+                color: rgb(78, 0, 142);
+                font-weight: 500;
+                transition: all 0.3s ease-in;
+
+                &:hover {
+                  color: rgb(149, 102, 187);
+                  border-color: rgb(149, 102, 187);
+                  cursor: pointer;
+                }
+              }
+
+              .cards {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+                margin: 30px 0;
+
+                .card {
+                  width: 45%;
+                  max-width: 150px;
+
+                  svg {
+                    width: 100%;
+                    height: 100px;
+                    border-radius: 10px;
+                    color: rgb(78, 0, 142);
+                    padding: 25px;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+
+                  h4 {
+                    color: rgb(42, 43, 42);
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-align: center;
+                    margin: 10px 0;
+                  }
+                }
+              }
+
+              h2 {
+                color: rgb(42, 43, 42);
+                font-weight: 600;
+                font-size: 18px;
+                text-align: center;
+
+                &:hover {
+                  color: rgb(122, 123, 123);
+                }
+              }
+
+              p {
+                color: rgb(42, 43, 42);
+                font-weight: 600;
+                font-size: 14px;
+                padding: 20px 10px;
+                text-align: center;
+
+                &:hover {
+                  color: rgb(122, 123, 123);
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+
+          span {
+            margin-top: 20px;
+            text-align: center;
+            color: black;
+            font-weight: 400;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

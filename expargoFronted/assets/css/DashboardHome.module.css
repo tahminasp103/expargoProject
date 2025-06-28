@@ -1,0 +1,408 @@
+@charset "UTF-8";
+.dashboardHome {
+  width: 100%;
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+.dashboardHome .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #F0F0F0;
+}
+.dashboardHome .container .news {
+  width: 90%;
+  overflow-x: auto;
+  display: flex;
+  gap: 15px;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+  scrollbar-width: none; /* Firefox üçün */
+  -ms-overflow-style: none; /* IE və Edge üçün */
+}
+.dashboardHome .container .news::-webkit-scrollbar {
+  display: none; /* Chrome, Safari üçün */
+}
+.dashboardHome .container .news .newsCard {
+  flex: 0 0 auto;
+  width: 5%;
+  text-align: center;
+}
+.dashboardHome .container .news .newsCard img {
+  width: 100%;
+  height: 80px;
+  border-radius: 50%;
+}
+.dashboardHome .container .news .newsCard p {
+  font-size: 10px;
+  color: rgb(78, 0, 142);
+  font-weight: 700;
+}
+.dashboardHome .container .userInformation {
+  width: 90%;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  background-color: white;
+}
+.dashboardHome .container .userInformation .informationContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboardHome .container .userInformation .informationContainer .user {
+  font-size: 60px;
+  color: #50148E;
+}
+.dashboardHome .container .userInformation .informationContainer .userContainer {
+  padding: 10px;
+  width: 100%;
+}
+.dashboardHome .container .userInformation .informationContainer .userContainer p {
+  font-weight: 600;
+  line-height: normal;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.dashboardHome .container .userInformation .informationContainer .userContainer p svg {
+  color: #92949C;
+  margin: 0 3px;
+  font-size: 13px;
+}
+.dashboardHome .container .userInformation .informationContainer .userContainer span {
+  font-weight: 400;
+  line-height: normal;
+  font-size: 16px;
+}
+.dashboardHome .container .userInformation .informationContainer .userContainer .line {
+  width: 100%;
+  margin: 5px 0;
+  height: 1px;
+  box-shadow: 0 1px 0 #bfbfbf;
+}
+.dashboardHome .container .userInformation .informationContainer .copy {
+  font-size: 30px;
+  color: #99999b;
+}
+.dashboardHome .container .userInformation .informationContainer .copy:hover {
+  color: #BBBCBE;
+}
+.dashboardHome .container .userInformation .informationContainer .arrow {
+  width: 3%;
+  height: 35px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #F7F7F7;
+  color: #2e2e2e;
+  margin-left: 30px;
+}
+.dashboardHome .container .userInformation .informationContainer .arrow:hover {
+  color: #959595;
+}
+.dashboardHome .container .userInformation h5 {
+  color: rgb(146, 148, 156);
+  font-weight: 400;
+  font-size: 14px;
+}
+.dashboardHome .container .homeCards {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.dashboardHome .container .homeCards .balance {
+  width: 32%;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+}
+.dashboardHome .container .homeCards .balance h2 {
+  color: rgb(42, 43, 42);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.dashboardHome .container .homeCards .balance .card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.dashboardHome .container .homeCards .balance .card .image {
+  width: 8%;
+  border-radius: 50%;
+}
+.dashboardHome .container .homeCards .balance .card .image img {
+  width: 100%;
+  border-radius: 50%;
+}
+.dashboardHome .container .homeCards .balance .card h3 {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+  margin: 0 5px;
+}
+.dashboardHome .container .homeCards .balance .card p {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  color: rgb(42, 43, 42);
+  font-weight: 700;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+}
+.dashboardHome .container .homeCards .balance .card p:hover {
+  color: rgb(146, 148, 156);
+  cursor: pointer;
+}
+.dashboardHome .container .homeCards .balance .card p .money {
+  margin: 0 3px 0 20px;
+}
+.dashboardHome .container .homeCards .balance p {
+  padding: 5px;
+  color: rgb(146, 148, 156);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+.dashboardHome .container .homeCards .balance .line {
+  width: 100%;
+  box-shadow: 0 0 0 0.1px rgba(0, 0, 0, 0.5);
+}
+.dashboardHome .container .homeCards .myForeigAdresses {
+  width: 32%;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+}
+.dashboardHome .container .homeCards .myForeigAdresses h2 {
+  color: rgb(42, 43, 42);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.dashboardHome .container .homeCards .myForeigAdresses .adressCard {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.dashboardHome .container .homeCards .myForeigAdresses .adressCard img {
+  width: 8%;
+  border-radius: 50%;
+}
+.dashboardHome .container .homeCards .myForeigAdresses .adressCard .line {
+  box-shadow: 0 0 0 0.1px rgba(0, 0, 0, 0.5);
+  height: 25px;
+  margin: 0 15px;
+}
+.dashboardHome .container .homeCards .myForeigAdresses .adressCard h3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(78, 0, 142);
+  font-weight: 700;
+  font-size: 20px;
+}
+.dashboardHome .container .homeCards .myForeigAdresses .adressCard svg {
+  color: rgb(186, 184, 184);
+}
+.dashboardHome .container .homeCards .calculator {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.dashboardHome .container .homeCards .calculator h2 {
+  width: 100%;
+  color: rgb(42, 43, 42);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.dashboardHome .container .homeCards .calculator .field {
+  width: 48%;
+  margin: 10px 0;
+}
+.dashboardHome .container .homeCards .calculator .field select {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in;
+  background-color: white;
+}
+.dashboardHome .container .homeCards .calculator .field select:hover {
+  background-color: #F5F5F5;
+}
+.dashboardHome .container .homeCards .calculator .field input {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  color: rgb(102, 102, 102);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in;
+  background-color: white;
+}
+.dashboardHome .container .homeCards .calculator .field input:hover {
+  background-color: #F5F5F5;
+}
+.dashboardHome .container .homeCards .calculator .resultButton {
+  width: 48%;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  padding: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4E008E;
+  border: none;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.dashboardHome .container .homeCards .calculator .resultButton:hover {
+  cursor: pointer;
+}
+.dashboardHome .container .homeCards .calculator .line {
+  color: white;
+  width: 100%;
+  padding: 30px;
+}
+.dashboardHome .container .links {
+  width: 90%;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboardHome .container .links .fastLinks {
+  width: 48%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+}
+.dashboardHome .container .links .fastLinks h2 {
+  color: rgb(42, 43, 42);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.dashboardHome .container .links .fastLinks .cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+.dashboardHome .container .links .fastLinks .cards .card {
+  width: 26%;
+  flex: 0 0 auto;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboardHome .container .links .fastLinks .cards .card img {
+  width: 80%;
+  height: 130px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+.dashboardHome .container .links .fastLinks .cards .card p {
+  padding: 10px 0;
+  color: rgb(42, 43, 42);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+}
+.dashboardHome .container .links .other {
+  width: 48%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+}
+.dashboardHome .container .links .other .text {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboardHome .container .links .other .text h2 {
+  color: rgb(42, 43, 42);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+.dashboardHome .container .links .other .text p {
+  color: rgb(146, 148, 156);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.dashboardHome .container .links .other .otherContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+.dashboardHome .container .links .other .otherContainer .otherCard {
+  width: 27%;
+  flex: 0 0 auto;
+  margin: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboardHome .container .links .other .otherContainer .otherCard svg {
+  width: 100%;
+  height: 130px;
+  color: rgb(78, 0, 142);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  font-size: 10px;
+}
+.dashboardHome .container .links .other .otherContainer .otherCard p {
+  padding: 10px 0;
+  color: rgb(42, 43, 42);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: normal;
+}

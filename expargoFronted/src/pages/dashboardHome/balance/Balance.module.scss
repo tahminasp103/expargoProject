@@ -1,0 +1,231 @@
+.modalBackdrop {
+   width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba(0,0,0, 0.4); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .balanceModal {
+    width: 20%;
+    z-index: 11;
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    h2 {
+      color: black;
+      line-height: 23px;
+      font-weight: 600;
+      font-size: 20px;
+      margin: 15px;
+    }
+p{
+        color: black;
+      line-height: normal;
+      font-weight: 400;
+      font-size: 17px;
+      margin: 3px;
+}
+span{
+    color: black;
+      line-height: normal;
+      font-weight: 700;
+      font-size: 18px;
+    margin-top: 20px;
+    display: block;
+}
+h5{
+          color: black;
+      line-height: 25px;
+      font-weight: 400;
+      font-size: 12px;
+      margin: 20px;
+}
+    .buttons {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid rgba(128, 0, 128, 0.2);
+      button {
+        width: 50%;
+        padding: 20px;
+        color: white;
+        border: none;
+        background-color: transparent;
+        font-family: "Inter", sans-serif;
+        line-height: 16px;
+        font-size: 23px;
+        cursor: pointer;
+        border: none;
+        color: rgb(78, 0, 142);
+
+
+      }
+
+      .btn1 {
+        border-left: 1px solid rgba(128, 0, 128, 0.2);
+        font-weight: 700;
+
+      }
+
+      .btn2 {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@media screen and (min-width:300px) and (max-width:568px) {
+  .modalBackdrop {
+  .balanceModal {
+    width: 80%;
+    z-index: 11;
+    padding-top: 5px;
+    text-align: center;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    h2 {
+      color: black;
+      line-height: 18px;
+      font-weight: 600;
+      font-size: 16px;
+      margin: 15px;
+    }
+p{
+        color: black;
+      line-height: normal;
+      font-weight: 400;
+      font-size: 17px;
+      margin: 3px;
+}
+span{
+    color: black;
+      line-height: normal;
+      font-weight: 700;
+      font-size: 18px;
+    margin-top: 20px;
+    display: block;
+}
+h5{
+          color: black;
+      line-height: 25px;
+      font-weight: 400;
+      font-size: 12px;
+      margin: 20px;
+}
+    .buttons {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid rgba(128, 0, 128, 0.2);
+      button {
+        width: 50%;
+        padding: 20px;
+        color: white;
+        border: none;
+        background-color: transparent;
+        font-family: "Inter", sans-serif;
+        line-height: 16px;
+        font-size: 23px;
+        cursor: pointer;
+        border: none;
+        color: rgb(78, 0, 142);
+
+
+      }
+
+      .btn1 {
+        border-left: 1px solid rgba(128, 0, 128, 0.2);
+        font-weight: 700;
+
+      }
+
+      .btn2 {
+        font-weight: 400;
+      }
+    }
+  }
+}
+}
+@media screen and (min-width:568px) and (max-width:1024px) {
+  .modalBackdrop {
+  .balanceModal {
+    width: 50%;
+    z-index: 11;
+    padding-top: 5px;
+    text-align: center;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    h2 {
+      color: black;
+      line-height: 18px;
+      font-weight: 600;
+      font-size: 16px;
+      margin: 15px;
+    }
+p{
+        color: black;
+      line-height: normal;
+      font-weight: 400;
+      font-size: 17px;
+      margin: 3px;
+}
+span{
+    color: black;
+      line-height: normal;
+      font-weight: 700;
+      font-size: 18px;
+    margin-top: 20px;
+    display: block;
+}
+h5{
+          color: black;
+      line-height: 25px;
+      font-weight: 400;
+      font-size: 12px;
+      margin: 20px;
+}
+    .buttons {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid rgba(128, 0, 128, 0.2);
+      button {
+        width: 50%;
+        padding: 20px;
+        color: white;
+        border: none;
+        background-color: transparent;
+        font-family: "Inter", sans-serif;
+        line-height: 16px;
+        font-size: 23px;
+        cursor: pointer;
+        border: none;
+        color: rgb(78, 0, 142);
+
+
+      }
+
+      .btn1 {
+        border-left: 1px solid rgba(128, 0, 128, 0.2);
+        font-weight: 700;
+
+      }
+
+      .btn2 {
+        font-weight: 400;
+      }
+    }
+  }
+}
+}

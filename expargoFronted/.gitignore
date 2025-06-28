@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+#  <!-- MONGO_URI=mongodb+srv://tehmine:Tt.09222003@cluster0.1s8mgha.mongodb.net/
+#  PORT=7777
+#  JWT_SECRET=TT.09222003
+#  TWILIO_PHONE_NUMBER=+1234567890
+# STRIPE_SECRET_KEY=sk_test_51RaLeg07OIDqXXBc6LrCQHNE4XL8Uo8ZCKl3BYQG919pkbo8cGgPJXLBGqcdAEmACcfbfIRbW7pgsPLCYA45Sfo4009hWQZ3Vo
+#  SMTP_USER=tahminap-sp103@code.edu.az
+# SMTP_PASS=Tt.092220033 -->

@@ -1,0 +1,286 @@
+.install {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: 40vh;
+
+  .container {
+    padding: 30px 30px 30px 10px;
+    width: 60%;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #8c3bd4 0%, #500290 100%);
+
+    .img1 {
+      width: 43%;
+      position: absolute;
+      left: -90px;
+      bottom: -40px;
+      z-index: 3;
+    }
+
+    h2 {
+      font-size: 35px;
+      line-height: 45px;
+      font-weight: 700;
+      color: white;
+      margin-top: 30px;
+      padding-top: 30px;
+      text-align: center;
+    }
+
+    .img {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .text {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      span {
+        color: rgb(209, 151, 255);
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 600;
+      }
+
+      .wiew {
+        display: block;
+        width: 28%;
+        text-align: end;
+      }
+    }
+
+    .logo {
+      width: 50%;
+      margin: 20px auto;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 20px;
+      padding: 0 20px;
+
+      a {
+        img {
+          box-shadow: 0 0 2px rgba(209, 151, 255, 0.5);
+          border-radius: 5px;
+          padding: 12px;
+          height: auto;
+        }
+      }
+    }
+
+    .star {
+      width: 18%;
+      position: absolute;
+      top: -90px;
+      right: -90px;
+    }
+  }
+
+  .visa {
+    position: relative;
+    top: 10vh;
+    width: 15%;
+    margin-bottom: 30px;
+  }
+
+  // ✅ Responsive
+  @media (max-width: 1200px) {
+    .container {
+      width: 75%;
+
+      .img1 {
+        width: 40%;
+        left: -60px;
+      }
+
+      .star {
+        width: 20%;
+        top: -60px;
+        right: -60px;
+      }
+
+      .logo {
+        width: 60%;
+      }
+    }
+
+    .visa {
+      width: 18%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .container {
+      width: 85%;
+      padding: 25px;
+
+      .img1 {
+        width: 35%;
+        left: -40px;
+      }
+
+      h2 {
+        font-size: 28px;
+        line-height: 36px;
+      }
+
+      .logo {
+        width: 70%;
+      }
+
+      .star {
+        width: 22%;
+        top: -50px;
+        right: -40px;
+      }
+    }
+
+    .visa {
+      width: 20%;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    .container {
+      width: 90%;
+      border-radius: 30px;
+
+      .img1 {
+        display: none;
+      }
+
+      .img {
+        flex-wrap: wrap;
+        gap: 10px;
+
+        a {
+          width: 40%;
+        }
+      }
+
+      .text {
+        flex-direction: column;
+        align-items: center;
+
+        .wiew {
+          width: 100%;
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+
+      .logo {
+        width: 80%;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .star {
+        display: none;
+      }
+    }
+
+    .visa {
+      width: 25%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    top: 10vh;
+
+    .container {
+      padding: 20px;
+      border-radius: 20px;
+
+      h2 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+
+      .img a {
+        width: 45%;
+      }
+
+      .logo {
+        width: 90%;
+        gap: 10px;
+
+        a img {
+          padding: 8px;
+        }
+      }
+    }
+
+    .visa {
+      width: 30%;
+    }
+  }
+}
+@media (min-width: 1201px) {
+  .install {
+    top: 40vh;
+
+    .container {
+      width: 50%;
+      padding: 40px;
+
+      h2 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      .img1 {
+        width: 40%;
+        left: -120px;
+        bottom: -50px;
+      }
+
+      .logo {
+        width: 50%;
+        gap: 25px;
+
+        a img {
+          padding: 14px;
+        }
+      }
+
+      .star {
+       display: none;
+      }
+    }
+
+    .visa {
+      width: 12%;
+    }
+  }
+}
+

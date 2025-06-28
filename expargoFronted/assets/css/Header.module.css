@@ -1,0 +1,425 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.header .headerTop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(78, 0, 142);
+  color: white;
+  padding: 10px;
+}
+.header .headerTop .container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerTop .container .install {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerTop .container .install h3 {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.header .headerTop .container .money {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerTop .container .money span {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header .headerTop .container .money .active {
+  border-bottom: 2px solid white;
+}
+.header .headerTop .container .money svg {
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer;
+}
+.header .headerBox {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+.header .headerBox.activeBg {
+  background-color: rgb(78, 0, 142);
+}
+.header .headerBox.transparentBg {
+  background-color: transparent;
+}
+.header .headerBox .container {
+  width: 72%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .headerBox .container .menuBurger {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+.header .headerBox .container img {
+  cursor: pointer;
+}
+.header .headerBox .container .navBar {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .headerBox .container .navBar ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header .headerBox .container .navBar ul li a {
+  text-decoration: none;
+  color: rgb(209, 151, 255);
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.header .headerBox .container .navBar ul li a:hover {
+  color: white;
+}
+.header .headerBox .container .navBar ul li a.active {
+  color: white;
+  font-weight: 600;
+}
+.header .headerBox .container .themeToggle {
+  margin-left: 15px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+.header .headerBox .container .themeToggle:hover {
+  color: var(--accent-color, #ffca22);
+}
+.header .headerBox .container button {
+  width: 11%;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 0 0 0.5px rgb(190, 187, 187);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.header .headerBox .container button a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .header .headerTop .container {
+    width: 93%;
+  }
+  .header .headerTop .container .install {
+    width: 60%;
+    justify-content: start;
+    gap: 2px;
+  }
+  .header .headerTop .container .install h3 {
+    display: none;
+  }
+  .header .headerTop .container .install img {
+    width: 94%;
+  }
+  .header .headerTop .container .money {
+    width: 35%;
+    justify-content: end;
+    gap: 8px;
+  }
+  .header .headerTop .container .money span {
+    font-size: 10px;
+  }
+  .header .headerTop .container .money svg {
+    font-size: 15px;
+  }
+  .header .headerBox {
+    padding: 20px;
+  }
+  .header .headerBox.activeBg {
+    background-color: rgb(78, 0, 142);
+  }
+  .header .headerBox .container {
+    width: 93%;
+  }
+  .header .headerBox .container img {
+    width: 40%;
+  }
+  .header .headerBox .container .menuBurger {
+    display: block;
+  }
+  .header .headerBox .container .navBar {
+    display: none;
+  }
+  .header .headerBox .container button {
+    width: 10%;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  .header .headerBox .container button span {
+    display: none;
+  }
+  .header .headerBox .container button svg {
+    font-size: 18px;
+    color: rgb(209, 151, 255);
+  }
+  .header .drawer {
+    display: block;
+    width: 70% !important;
+  }
+  .header .drawer .menu {
+    height: 100%;
+    background-color: rgb(78, 0, 142);
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header .drawer .menu .img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .drawer .menu .img img {
+    width: 50%;
+  }
+  .header .drawer .menu .img .close {
+    width: 15%;
+    height: 25px;
+    color: rgb(209, 151, 255);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 0.5px rgb(209, 151, 255);
+    border-radius: 5px;
+  }
+  .header .drawer .menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+  }
+  .header .drawer .menu ul .line {
+    width: 98%;
+    box-shadow: 0 0 0 0.2px rgb(50, 18, 81);
+  }
+  .header .drawer .menu ul li a {
+    text-decoration: none;
+    color: rgb(209, 151, 255);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+  .header .drawer .menu ul li a:hover {
+    color: white;
+  }
+  .header .drawer .menu ul li a.active {
+    color: white;
+    font-weight: 600;
+  }
+  .header .drawer .menu button {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    box-shadow: 0 0 0 0.5px rgb(190, 187, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 7px;
+  }
+  .header .drawer .menu button svg {
+    font-size: 18px;
+    color: white;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .header .headerTop .container {
+    width: 93%;
+  }
+  .header .headerTop .container .install {
+    width: 60%;
+    justify-content: start;
+    gap: 2px;
+  }
+  .header .headerTop .container .install h3 {
+    display: none;
+  }
+  .header .headerTop .container .install img {
+    width: 94%;
+  }
+  .header .headerTop .container .money {
+    width: 35%;
+    justify-content: end;
+    gap: 8px;
+  }
+  .header .headerTop .container .money span {
+    font-size: 10px;
+  }
+  .header .headerTop .container .money svg {
+    font-size: 15px;
+  }
+  .header .headerBox {
+    padding: 20px;
+  }
+  .header .headerBox.activeBg {
+    background-color: rgb(78, 0, 142);
+  }
+  .header .headerBox .container {
+    width: 93%;
+  }
+  .header .headerBox .container img {
+    width: 30%;
+  }
+  .header .headerBox .container .menuBurger {
+    display: block;
+  }
+  .header .headerBox .container .navBar {
+    display: none;
+  }
+  .header .headerBox .container button {
+    width: 6%;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  .header .headerBox .container button span {
+    display: none;
+  }
+  .header .headerBox .container button svg {
+    font-size: 18px;
+    color: rgb(209, 151, 255);
+  }
+  .header .drawer {
+    display: block;
+    width: 70% !important;
+  }
+  .header .drawer .menu {
+    height: 100%;
+    background-color: rgb(78, 0, 142);
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header .drawer .menu .img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .drawer .menu .img img {
+    width: 50%;
+  }
+  .header .drawer .menu .img .close {
+    width: 15%;
+    height: 25px;
+    color: rgb(209, 151, 255);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 0.5px rgb(209, 151, 255);
+    border-radius: 5px;
+  }
+  .header .drawer .menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+  }
+  .header .drawer .menu ul .line {
+    width: 98%;
+    box-shadow: 0 0 0 0.2px rgb(50, 18, 81);
+  }
+  .header .drawer .menu ul li a {
+    text-decoration: none;
+    color: rgb(209, 151, 255);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+  .header .drawer .menu ul li a:hover {
+    color: white;
+  }
+  .header .drawer .menu ul li a.active {
+    color: white;
+    font-weight: 600;
+  }
+  .header .drawer .menu button {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    box-shadow: 0 0 0 0.5px rgb(190, 187, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 7px;
+  }
+  .header .drawer .menu button svg {
+    font-size: 18px;
+    color: white;
+  }
+}

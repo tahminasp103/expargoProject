@@ -1,0 +1,585 @@
+.rates {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  top: 20vh;
+}
+.rates .container {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+}
+.rates .container h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
+  color: rgb(35, 35, 35);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 30px 0;
+}
+.rates .container .btn {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.rates .container .btn button {
+  width: 33.33%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fafafa;
+  border: none;
+  border-radius: 20px;
+  color: rgb(42, 43, 42);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.rates .container .btn button.active {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.rates .container .ratesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+}
+.rates .container .ratesContainer .ratesCard1 {
+  width: 50%;
+  margin-top: 30px;
+  padding: 30px;
+  background: linear-gradient(to bottom, #F7F5FA, #ffffff);
+  border: 3px solid #eee6fc;
+  border-radius: 20px;
+}
+.rates .container .ratesContainer .ratesCard1 h3 {
+  color: rgb(78, 0, 142);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  padding-top: 30px;
+  margin: 25px 0;
+}
+.rates .container .ratesContainer .ratesCard1 .cardBtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0F0F0;
+  border-radius: 5px;
+  padding: 2px;
+}
+.rates .container .ratesContainer .ratesCard1 .cardBtn button {
+  width: 50%;
+  padding: 10px;
+  transition: background-color 0.3s;
+  border: none;
+  color: rgb(133, 133, 133);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 7px;
+}
+.rates .container .ratesContainer .ratesCard1 .cardBtn button.active {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  color: rgb(78, 0, 142);
+}
+.rates .container .ratesContainer .ratesCard1 .tarrifs {
+  font-family: "Inter", sans-serif;
+}
+.rates .container .ratesContainer .ratesCard1 .tarrifs ul {
+  margin: 30px;
+  padding-bottom: 30px;
+}
+.rates .container .ratesContainer .ratesCard1 .tarrifs ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.rates .container .ratesContainer .ratesCard1 .tarrifs ul li p {
+  color: rgb(78, 0, 142);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.rates .container .ratesContainer .ratesCard1 .tarrifs ul li span {
+  color: rgb(177, 152, 216);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.rates .container .ratesContainer .ratesCard2 {
+  width: 50%;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 20px rgba(137, 133, 133, 0.1);
+}
+.rates .container .ratesContainer .ratesCard2 h3 {
+  color: rgb rgb(35, 35, 35);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  padding-top: 30px;
+  margin: 25px 0;
+}
+.rates .container .ratesContainer .ratesCard2 .cardBtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F0F0F0;
+  border-radius: 5px;
+  padding: 2px;
+}
+.rates .container .ratesContainer .ratesCard2 .cardBtn button {
+  width: 50%;
+  padding: 10px;
+  transition: background-color 0.3s;
+  border: none;
+  color: rgb(133, 133, 133);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 7px;
+}
+.rates .container .ratesContainer .ratesCard2 .cardBtn button.active {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  color: rgb(78, 0, 142);
+}
+.rates .container .ratesContainer .ratesCard2 .tarrifs {
+  font-family: "Inter", sans-serif;
+}
+.rates .container .ratesContainer .ratesCard2 .tarrifs ul {
+  margin: 30px;
+  padding-bottom: 30px;
+}
+.rates .container .ratesContainer .ratesCard2 .tarrifs ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.rates .container .ratesContainer .ratesCard2 .tarrifs ul li p {
+  color: rgb(35, 35, 35);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.rates .container .ratesContainer .ratesCard2 .tarrifs ul li span {
+  color: rgb(133, 133, 133);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 300px) and (max-width: 578px) {
+  .rates {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    top: 20vh;
+  }
+  .rates .container {
+    width: 100%;
+  }
+  .rates .container h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+    padding: 20px;
+  }
+  .rates .container .btn {
+    width: 100%;
+  }
+  .rates .container .btn button {
+    padding: 10px;
+    flex-direction: column;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .rates .container .ratesContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rates .container .ratesContainer .ratesCard1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .rates .container .ratesContainer .ratesCard1 h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin: 25px 0;
+  }
+  .rates .container .ratesContainer .ratesCard1 .cardBtn button {
+    width: 50%;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul {
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .rates .container .ratesContainer .ratesCard2 {
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .rates .container .ratesContainer .ratesCard2 h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin: 25px 0;
+  }
+  .rates .container .ratesContainer .ratesCard2 .cardBtn button {
+    width: 50%;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul {
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 578px) and (max-width: 700px) {
+  .rates {
+    padding: 30px;
+  }
+  .rates .container {
+    width: 80%;
+  }
+  .rates .container h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+    padding: 20px;
+  }
+  .rates .container .btn {
+    width: 100%;
+  }
+  .rates .container .btn button {
+    padding: 10px;
+    flex-direction: column;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .rates .container .ratesContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rates .container .ratesContainer .ratesCard1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .rates .container .ratesContainer .ratesCard1 h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin: 25px 0;
+  }
+  .rates .container .ratesContainer .ratesCard1 .cardBtn button {
+    width: 50%;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul {
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .rates .container .ratesContainer .ratesCard2 {
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .rates .container .ratesContainer .ratesCard2 h3 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin: 25px 0;
+  }
+  .rates .container .ratesContainer .ratesCard2 .cardBtn button {
+    width: 50%;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul {
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 991px) {
+  .rates {
+    padding: 30px;
+  }
+  .rates .container {
+    width: 80%;
+  }
+  .rates .container h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+    padding: 20px;
+  }
+  .rates .container .btn {
+    width: 100%;
+  }
+  .rates .container .btn button {
+    padding: 10px;
+    flex-direction: column;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .rates .container .ratesContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rates .container .ratesContainer .ratesCard1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .rates .container .ratesContainer .ratesCard1 h3 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin: 25px 0;
+  }
+  .rates .container .ratesContainer .ratesCard1 .cardBtn button {
+    width: 50%;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul {
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li p {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li span {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .rates .container .ratesContainer .ratesCard2 {
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .rates .container .ratesContainer .ratesCard2 h3 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin: 25px 0;
+  }
+  .rates .container .ratesContainer .ratesCard2 .cardBtn button {
+    width: 50%;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul {
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li p {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li span {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .rates {
+    padding: 30px;
+  }
+  .rates .container {
+    width: 90%;
+  }
+  .rates .container h2 {
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+    padding: 20px;
+  }
+  .rates .container .btn {
+    width: 100%;
+  }
+  .rates .container .btn button {
+    padding: 10px;
+    flex-direction: column;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .rates .container .ratesContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rates .container .ratesContainer .ratesCard1 {
+    width: 100%;
+    padding: 10px;
+  }
+  .rates .container .ratesContainer .ratesCard1 h3 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin: 25px 0;
+  }
+  .rates .container .ratesContainer .ratesCard1 .cardBtn button {
+    width: 50%;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul {
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li p {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .rates .container .ratesContainer .ratesCard1 .tarrifs ul li span {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .rates .container .ratesContainer .ratesCard2 {
+    width: 100%;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .rates .container .ratesContainer .ratesCard2 h3 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
+    padding-top: 30px;
+    margin: 25px 0;
+  }
+  .rates .container .ratesContainer .ratesCard2 .cardBtn button {
+    width: 50%;
+    padding: 8px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul {
+    margin: 30px;
+    padding-bottom: 30px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li p {
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .rates .container .ratesContainer .ratesCard2 .tarrifs ul li span {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

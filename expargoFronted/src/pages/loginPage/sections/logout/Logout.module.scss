@@ -1,0 +1,179 @@
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color:rgba(0, 0, 0, 0.3);
+    .logout {
+        width: 20%;
+        text-align: center;
+        background-color: white;
+        padding: 30px 10px;
+        font-family: "Inter", sans-serif;
+         border-radius: 10px;
+        p {
+            color: black;
+            line-height: 30px;
+            font-weight: 600;
+            font-size: 25px;
+            margin: 30px 0 ;
+            padding-top: 15px;
+        }
+
+        .btn {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+                padding-top: 10px;
+
+            button {
+                width: 48%;
+                padding: 20px;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                font-family: "Inter", sans-serif;
+                line-height: 16px;
+                font-weight: 600;
+                font-size: 23px;
+                &:hover{
+                    background-color: rgb(210, 210, 210);
+                }
+            }
+            .btn1{
+                background-color: #92949C;
+            }
+            .btn2{
+                background-color: #4E008E;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:568px) {
+    .overlay {
+    .logout {
+        width: 50%;
+        p {
+            line-height: 20px;
+            font-size: 15px;
+            padding-top: 15px;
+        }
+
+        .btn {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+                padding-top: 10px;
+
+            button {
+                width: 48%;
+                padding: 15px;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-size: 15px;
+                &:hover{
+                    background-color: rgb(210, 210, 210);
+                }
+            }
+            .btn1{
+                background-color: #92949C;
+            }
+            .btn2{
+                background-color: #4E008E;
+            }
+        }
+    }
+}
+
+}
+@media screen and (min-width:569px) and (max-width:768px) {
+    .overlay {
+    .logout {
+        width: 40%;
+        p {
+            line-height: 20px;
+            font-size: 15px;
+            padding-top: 15px;
+        }
+
+        .btn {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+                padding-top: 10px;
+
+            button {
+                width: 48%;
+                padding: 15px;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-size: 15px;
+                &:hover{
+                    background-color: rgb(210, 210, 210);
+                }
+            }
+            .btn1{
+                background-color: #92949C;
+            }
+            .btn2{
+                background-color: #4E008E;
+            }
+        }
+    }
+}
+
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .overlay {
+    .logout {
+        width: 40%;
+        p {
+            line-height: 20px;
+            font-size: 15px;
+            padding-top: 15px;
+        }
+
+        .btn {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+                padding-top: 10px;
+
+            button {
+                width: 48%;
+                padding: 15px;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-size: 15px;
+                &:hover{
+                    background-color: rgb(210, 210, 210);
+                }
+            }
+            .btn1{
+                background-color: #92949C;
+            }
+            .btn2{
+                background-color: #4E008E;
+            }
+        }
+    }
+}
+
+}

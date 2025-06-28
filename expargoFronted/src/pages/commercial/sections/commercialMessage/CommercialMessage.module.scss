@@ -1,0 +1,286 @@
+.commercialMessage {
+    position: relative;
+    top: 100vh;
+    width: 100%;
+    padding: 30px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .formContainer {
+            width: 40%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            label {
+                color: rgb(78, 0, 142);
+                font-weight: 700;
+                margin: 10px 0;
+                padding-left: 5px;
+                font-size: 18px;
+                line-height: 25px;
+                font-family: "Inter", sans-serif;
+            }
+
+            .inp {
+                width: 100%;
+                padding-top: 30px;
+                margin-top: 30px;
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+
+                input {
+                    padding: 10px o;
+                    width: 100%;
+                    box-shadow: 0 1px 0 0 #ccc;
+                    font-size: 17px;
+                    padding: 5px 6px;
+                    line-height: 25px;
+                    font-weight: 400;
+                    font-style: normal;
+                    border: none;
+                    background-color: transparent;
+                }
+
+            }
+
+            textarea {
+                width: 100%;
+                height: 100px;
+                font-size: 17px;
+                font-family: "Inter", sans-serif;
+                padding: 5px 0;
+                line-height: 25px;
+                font-weight: 400;
+                border: none;
+                background-color: transparent;
+                box-shadow: 0 1px 0 0 #ccc;
+                margin-bottom: 30px;
+            }
+
+            button {
+                width: 100%;
+                height: 60px;
+                margin-top: 30px;
+                background-color: rgb(243, 195, 85);
+                border: none;
+                color: rgb(136, 85, 177);
+                font-family: "Inter", sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+
+        .contact {
+            width: 40%;
+            border-radius: 10px;
+            background-color: white;
+            display: flex;
+            gap: 30px;
+            .line {
+                width: 2%;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                background-color: #4E008E;
+            }
+
+            .contactContainer {
+                width: 70%;
+                padding: 30px 0;
+                h3 {
+                    font-family: "Inter", sans-serif;
+                    color: rgb(65, 67, 77);
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    display: flex;
+                    margin: 30px 0;
+                    gap: 10px;
+                    align-items: center;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                    svg {
+                        font-size: 25px;
+                        color: #4E008E;
+                    }
+                }
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 578px) {
+  .commercialMessage {
+    padding: 20px;
+    top: 50vh;
+
+    .container {
+      flex-direction: column;
+      gap: 30px;
+      width: 100%;
+
+      .formContainer,
+      .contact {
+        width: 100%;
+      }
+
+      .formContainer {
+        padding: 20px;
+
+        label {
+          font-size: 16px;
+        }
+
+        .inp {
+          padding-top: 20px;
+          margin-top: 20px;
+        }
+
+        input,
+        textarea {
+          font-size: 16px;
+        }
+
+        button {
+          height: 50px;
+          font-size: 18px;
+        }
+      }
+
+      .contact {
+        flex-direction: row;
+        padding: 10px;
+
+        .line {
+          width: 5px;
+          height: auto;
+        }
+
+        .contactContainer {
+          width: 100%;
+          padding: 10px 0;
+
+          h3 {
+            font-size: 18px;
+            line-height: 28px;
+            margin: 20px 0;
+            gap: 8px;
+
+            svg {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 579px) and (max-width: 700px) {
+  .commercialMessage {
+    padding: 25px;
+
+    .container {
+      flex-direction: column;
+      gap: 30px;
+
+      .formContainer,
+      .contact {
+        width: 100%;
+      }
+
+      .formContainer {
+        padding: 25px;
+
+        label {
+          font-size: 17px;
+        }
+
+        input,
+        textarea {
+          font-size: 17px;
+        }
+
+        button {
+          height: 55px;
+          font-size: 19px;
+        }
+      }
+
+      .contact {
+        flex-direction: row;
+
+        .line {
+          width: 4px;
+        }
+
+        .contactContainer {
+          width: 100%;
+          padding: 20px 0;
+
+          h3 {
+            font-size: 20px;
+            margin: 25px 0;
+
+            svg {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+  .commercialMessage {
+    padding: 30px;
+
+    .container {
+      width: 90%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+
+      .formContainer,
+      .contact {
+        width: 100%;
+      }
+
+      .formContainer {
+        padding: 30px;
+
+        button {
+          font-size: 19px;
+          height: 55px;
+        }
+      }
+
+      .contact {
+        flex-direction: row;
+
+        .line {
+          width: 4px;
+        }
+
+        .contactContainer {
+          h3 {
+            font-size: 20px;
+            margin: 25px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+

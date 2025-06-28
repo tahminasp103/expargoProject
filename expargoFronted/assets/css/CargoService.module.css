@@ -1,0 +1,356 @@
+.cargoService {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: 25vh;
+}
+.cargoService .container {
+  width: 80%;
+  padding: 30px;
+}
+.cargoService .container h2 {
+  font-size: 42px;
+  line-height: 45px;
+  font-weight: 800;
+  color: rgb(35, 35, 35);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cargoService .container .cargoContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cargoService .container .cargoContainer .cargoLocation {
+  width: 49%;
+  box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.03);
+  padding: 30px;
+  border-radius: 20px;
+}
+.cargoService .container .cargoContainer .cargoLocation .location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  padding: 15px;
+}
+.cargoService .container .cargoContainer .cargoLocation .location span {
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.cargoService .container .cargoContainer .cargoLocation .location span svg {
+  font-size: 14px;
+  font-weight: 700;
+}
+.cargoService .container .cargoContainer .cargoLocation .location h3 {
+  color: rgb(133, 133, 133);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.cargoService .container .cargoContainer .cargoLocation .line {
+  box-shadow: 0 0 0 0.2px rgba(0, 0, 0, 0.2);
+}
+.cargoService .container .cargoContainer .cargoLocation p {
+  color: rgb(68, 68, 68);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  width: 90%;
+  padding: 30px 0px;
+  margin: 0 auto;
+}
+.cargoService .container .cargoContainer .cargoLocation .cards {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.cargoService .container .cargoContainer .cargoLocation .cards .image {
+  width: 30%;
+  position: relative;
+}
+.cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard {
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.03);
+}
+.cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard img {
+  width: 100%;
+}
+.cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard span {
+  display: block;
+  width: 22%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4E008E;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: 50px;
+}
+.cargoService .container .cargoContainer .cargoLocation .cards .image p {
+  color: rgb(78, 0, 142);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  width: 90%;
+  padding: 0px;
+  text-align: center;
+  padding: 10px 0;
+}
+.cargoService .container .cargoContainer .cargoLocation .cards .lineImage {
+  width: 40%;
+  height: 3px;
+  background-color: #4E008E;
+  position: absolute;
+  top: 60px;
+  left: 30%;
+}
+.cargoService .container .cargoContainer .cargoLocation .information {
+  padding: 30px;
+}
+.cargoService .container .cargoContainer .cargoLocation .information span {
+  color: rgb(51, 51, 51);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto;
+  margin: 0 5px;
+}
+.cargoService .container .cargoContainer .cargoLocation .information span svg {
+  font-size: 15px;
+}
+.cargoService .container .cargoContainer .cargoLocation .information .blackText {
+  font-weight: 700;
+}
+.cargoService .container .cargoContainer .service {
+  width: 49%;
+}
+.cargoService .container .cargoContainer .service .delivery .deliveryCard {
+  display: flex;
+  gap: 20px;
+  margin: 30px;
+  padding: 20px 0;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.cargoService .container .cargoContainer .service .delivery .deliveryCard img {
+  width: 8%;
+}
+.cargoService .container .cargoContainer .service .delivery .deliveryCard .text {
+  width: 70%;
+}
+.cargoService .container .cargoContainer .service .delivery .deliveryCard .text span {
+  font-weight: 700;
+  color: black;
+  font-size: 22px;
+  line-height: 28px;
+}
+.cargoService .container .cargoContainer .service .delivery .deliveryCard .text .yellowText {
+  color: rgb(239, 163, 29);
+  margin: 0 5px;
+}
+.cargoService .container .cargoContainer .service .delivery .deliveryCard p {
+  font-weight: 400;
+  color: rgb(128, 128, 128);
+  font-size: 20px;
+  line-height: 23px;
+  margin: 10px 0;
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .cargoService .container {
+    width: 90%;
+    padding: 0;
+  }
+  .cargoService .container h2 {
+    font-size: 35px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation {
+    width: 100%;
+    padding: 0px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .location {
+    padding: 20px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .location span {
+    font-size: 14px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .location h3 {
+    text-align: center;
+    width: 30%;
+    font-size: 16px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .line {
+    box-shadow: 0 0 0 0.2px rgba(0, 0, 0, 0.2);
+  }
+  .cargoService .container .cargoContainer .cargoLocation p {
+    font-size: 12px;
+    width: 70%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards {
+    width: 70%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image {
+    width: 40%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard {
+    padding: 20px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard img {
+    width: 100%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard span {
+    text-align: center;
+    width: 30%;
+    left: 35px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image p {
+    font-size: 12px;
+    width: 100%;
+    margin: 10px 0 30px 0;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .lineImage {
+    width: 20%;
+    top: 40px;
+    left: 40%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .information {
+    padding: 0px;
+    width: 70%;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .information span {
+    font-size: 12px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .information .blackText {
+    font-weight: 700;
+  }
+  .cargoService .container .cargoContainer .service {
+    width: 100%;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard {
+    padding: 0;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard img {
+    width: 20%;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard .text {
+    width: 75%;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard .text span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .cargoService .container {
+    width: 90%;
+    padding: 0;
+  }
+  .cargoService .container h2 {
+    font-size: 35px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation {
+    width: 100%;
+    padding: 0px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .location {
+    padding: 20px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .location span {
+    font-size: 14px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .location h3 {
+    text-align: center;
+    width: 30%;
+    font-size: 16px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .line {
+    box-shadow: 0 0 0 0.2px rgba(0, 0, 0, 0.2);
+  }
+  .cargoService .container .cargoContainer .cargoLocation p {
+    font-size: 12px;
+    width: 70%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards {
+    width: 40%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image {
+    width: 40%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard {
+    padding: 30px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard img {
+    width: 100%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image .imgCard span {
+    display: none;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .image p {
+    font-size: 12px;
+    width: 100%;
+    margin: 10px 0 30px 0;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .cards .lineImage {
+    width: 20%;
+    top: 40px;
+    left: 40%;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .information {
+    padding: 0px;
+    width: 70%;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .information span {
+    font-size: 12px;
+  }
+  .cargoService .container .cargoContainer .cargoLocation .information .blackText {
+    font-weight: 700;
+  }
+  .cargoService .container .cargoContainer .service {
+    width: 100%;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard {
+    padding: 0;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard img {
+    width: 8%;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard .text {
+    width: 75%;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard .text span {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .cargoService .container .cargoContainer .service .delivery .deliveryCard p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

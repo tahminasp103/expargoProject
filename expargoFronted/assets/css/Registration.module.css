@@ -1,0 +1,286 @@
+.registration {
+  width: 100%;
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+.registration .registrationContainer {
+  width: 80%;
+  padding-left: 30px;
+  background-color: #F2F2F2;
+}
+.registration .registrationContainer h3 {
+  font-size: 27px;
+  line-height: normal;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+.registration .registrationContainer .container {
+  width: 60%;
+  margin: 0 auto;
+}
+.registration .registrationContainer .container img {
+  width: 18%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.registration .registrationContainer .container h2 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+  color: rgb(78, 0, 142);
+  text-align: center;
+  padding: 20px;
+}
+.registration .registrationContainer .container .registrationForm {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.registration .registrationContainer .container .registrationForm .inp {
+  width: 47%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.registration .registrationContainer .container .registrationForm .inp label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+  color: black;
+  margin: 10px;
+}
+.registration .registrationContainer .container .registrationForm .inp select {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  color: rgb(127, 127, 127);
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+}
+.registration .registrationContainer .container .registrationForm .inp input {
+  border: none;
+  background-color: transparent;
+  padding: 10px 0;
+  padding: 7px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: rgb(127, 127, 127);
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+}
+.registration .registrationContainer .container .registrationForm .fin {
+  width: 47%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.registration .registrationContainer .container .registrationForm .fin svg {
+  color: rgb(78, 0, 142);
+  transition: all 0.3 ease-in;
+  font-size: 23px;
+}
+.registration .registrationContainer .container .registrationForm .fin svg:hover {
+  color: rgb(154, 110, 191);
+}
+.registration .registrationContainer .container .registrationForm .fin div {
+  display: flex;
+  flex-direction: column;
+}
+.registration .registrationContainer .container .registrationForm .fin div input {
+  border: none;
+  background-color: transparent;
+  padding: 7px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: rgb(127, 127, 127);
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+}
+.registration .registrationContainer .container .registrationForm .fin div label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+  color: black;
+  margin: 10px;
+}
+.registration .registrationContainer .container .registrationForm .code {
+  width: 47%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.registration .registrationContainer .container .registrationForm .code .number {
+  width: 30%;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.registration .registrationContainer .container .registrationForm .code .number:hover {
+  background-color: #F5F5F5;
+}
+.registration .registrationContainer .container .registrationForm .code .number label {
+  width: 50%;
+  margin-top: 5px;
+  text-align: end;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+  color: black;
+  margin: 10px;
+}
+.registration .registrationContainer .container .registrationForm .code .number select {
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  padding: 7px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: rgb(7, 7, 7);
+  font-size: 23px;
+  line-height: normal;
+  font-weight: 400;
+  background-color: transparent;
+}
+.registration .registrationContainer .container .registrationForm .code .phone {
+  width: 60%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.registration .registrationContainer .container .registrationForm .code .phone label {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: normal;
+  font-weight: 400;
+  margin: 5px;
+}
+.registration .registrationContainer .container .registrationForm .code .phone input {
+  padding: 5px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: rgb(127, 127, 127);
+  font-size: 23px;
+  line-height: normal;
+  font-weight: 400;
+}
+.registration .registrationContainer .container .registrationForm .location {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.registration .registrationContainer .container .registrationForm .location label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+  color: black;
+  margin: 10px;
+}
+.registration .registrationContainer .container .registrationForm .location input {
+  border: none;
+  background-color: transparent;
+  padding: 7px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: rgb(127, 127, 127);
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+}
+.registration .registrationContainer .container .registrationForm .permission {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.registration .registrationContainer .container .registrationForm .permission input[type=radio] {
+  transform: scale(2.5);
+}
+.registration .registrationContainer .container .registrationForm .permission p {
+  width: 90%;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+}
+.registration .registrationContainer .container .registrationForm .permission svg {
+  color: rgb(78, 0, 142);
+  transition: all 0.3 ease-in;
+  font-size: 23px;
+}
+.registration .registrationContainer .container .registrationForm .permission svg:hover {
+  color: rgb(154, 110, 191);
+}
+.registration .registrationContainer .container .registrationForm .btn {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.registration .registrationContainer .container .registrationForm .btn .btn1 {
+  width: 50%;
+  height: 65px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+  background-color: #A37DC2;
+}
+.registration .registrationContainer .container .registrationForm .btn .btn2 {
+  border: none;
+  color: rgb(78, 0, 142);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+  margin: 0 auto;
+  transition: all 0.3 ease-in;
+}
+.registration .registrationContainer .container .registrationForm .btn .btn2:hover {
+  color: #9162B7;
+  cursor: pointer;
+}

@@ -1,0 +1,153 @@
+.modalBackdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalBackdrop .paymentModal {
+  width: 30%;
+  background-color: #F9F9F9;
+  text-align: center;
+  background-color: white;
+  padding: 30px 10px;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+}
+.modalBackdrop .paymentModal .header {
+  width: 100%;
+  margin-left: 10px;
+  display: block;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+.modalBackdrop .paymentModal .header svg {
+  color: rgb(72, 72, 72);
+  font-size: 30px;
+}
+.modalBackdrop .paymentModal .header svg:hover {
+  color: gray;
+}
+.modalBackdrop .paymentModal .header h2 {
+  color: black;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.modalBackdrop .paymentModal h3 {
+  color: rgb(42, 43, 42);
+  line-height: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 30px 0 15px 0;
+}
+.modalBackdrop .paymentModal .currencySelector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.modalBackdrop .paymentModal .currencySelector button {
+  width: 30%;
+  padding: 0 10px;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid rgba(55, 53, 55, 0.2);
+}
+.modalBackdrop .paymentModal .currencySelector button img {
+  width: 20%;
+}
+.modalBackdrop .paymentModal .form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.modalBackdrop .paymentModal .form .inp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.modalBackdrop .paymentModal .form .inp svg {
+  font-size: 30px;
+}
+.modalBackdrop .paymentModal .form .inp input {
+  width: 95%;
+  border: none;
+}
+.modalBackdrop .paymentModal .form .cardElementContainer {
+  width: 100%;
+  margin: 10px;
+  padding: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.modalBackdrop .paymentModal .form p {
+  color: rgb(42, 43, 42);
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 15px;
+}
+.modalBackdrop .paymentModal .form .currencyButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.modalBackdrop .paymentModal .form .currencyButtons button {
+  width: 30%;
+  padding: 0 10px;
+  height: 55px;
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+  padding-left: 15px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid rgba(55, 53, 55, 0.2);
+}
+.modalBackdrop .paymentModal .form .currencyButtons button img {
+  width: 15%;
+}
+.modalBackdrop .paymentModal .form button {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  line-height: 16px;
+  font-weight: 600;
+  font-size: 23px;
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: rgb(167, 130, 198);
+}

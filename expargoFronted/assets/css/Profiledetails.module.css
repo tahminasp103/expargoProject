@@ -1,0 +1,63 @@
+.profileDetails {
+  width: 100%;
+  display: flex;
+}
+.profileDetails .profileContainer {
+  width: 80%;
+  background-color: #F2F2F2;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+}
+.profileDetails .profileContainer h2 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 500;
+  gap: 5px;
+}
+.profileDetails .profileContainer .container {
+  width: 90%;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profileDetails .profileContainer .container .inp {
+  width: 49.7%;
+  padding: 10px;
+  margin: 7px 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.profileDetails .profileContainer .container .inp span {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(132, 129, 129);
+}
+.profileDetails .profileContainer .container .inp input {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+.profileDetails .profileContainer .container button {
+  margin: 10px 0;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #4E008E;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  transition: all 0.3s ease-in;
+}
+.profileDetails .profileContainer .container button:hover {
+  background-color: #601A99;
+}

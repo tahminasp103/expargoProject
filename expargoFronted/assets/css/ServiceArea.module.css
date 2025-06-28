@@ -1,0 +1,238 @@
+.serviceArea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+  top: 25vh;
+}
+.serviceArea .container {
+  width: 80%;
+}
+.serviceArea .container h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
+  color: rgb(35, 35, 35);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 30px 0;
+}
+.serviceArea .container .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.serviceArea .container .cards .mapContainer {
+  width: 48%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.serviceArea .container .cards .branchList {
+  width: 48%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.serviceArea .container .cards .branchList .branchItem {
+  width: 48%;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+}
+.serviceArea .container .cards .branchList .branchItem .accordionButton {
+  width: 100%;
+  padding: 30px;
+  background: #f2f2f2;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: rgb(68, 68, 68);
+  font-family: "Inter", sans-serif;
+  border-radius: 20px;
+}
+.serviceArea .container .cards .branchList .branchItem .accordionButton .arrow {
+  font-size: 35px;
+  color: #bebebe;
+  transition: transform 0.3s ease;
+}
+.serviceArea .container .cards .branchList .branchItem .active {
+  background-color: #4e008e;
+  color: white;
+  box-shadow: 0 0 5px 5px rgba(200, 150, 255, 0.5);
+}
+.serviceArea .container .cards .branchList .branchItem .active .arrow {
+  color: white;
+  transform: rotate(90deg);
+}
+.serviceArea .container .cards .branchList .branchItem .accordionContent {
+  width: 100%;
+  background: #fff;
+  margin-top: 10px;
+  padding: 20px;
+  height: auto;
+  border: 2px solid #d8b4f8;
+  border-radius: 20px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+.serviceArea .container .cards .branchList .branchItem .accordionContent a.branchLink {
+  color: rgb(89, 49, 150);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.serviceArea .container .cards .branchList .branchItem .accordionContent a.branchLink:hover {
+  text-decoration: underline;
+}
+.serviceArea .container .cards .branchList .branchItem .accordionContent p {
+  margin: 6px 0;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+}
+.serviceArea .container .cards .branchList .branchItem .accordionContent p svg {
+  color: #4e008e;
+  margin: 0 10px;
+  font-size: 25px;
+}
+.serviceArea .container .cards .branchList .branchItem .accordionContent span {
+  width: 60%;
+  display: block;
+  color: rgb(133, 133, 133);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.serviceArea .container .cards .branchList .branchItem .accordionContent h5 {
+  color: rgb(133, 133, 133);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+.serviceArea .container .cards .branchList .toggleButtonWrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.serviceArea .container .cards .branchList .toggleButton {
+  height: 70px;
+  width: 100%;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  background-color: white;
+  border: 1px solid rgb(206, 206, 206);
+  transition: all 0.2s ease-in;
+}
+.serviceArea .container .cards .branchList .toggleButton:hover {
+  color: rgb(68, 68, 68);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 700px) {
+  .serviceArea {
+    padding: 20px 0;
+  }
+  .serviceArea .container {
+    width: 90%;
+  }
+  .serviceArea .container h2 {
+    font-size: 28px;
+    line-height: 34px;
+    padding: 20px 0;
+  }
+  .serviceArea .container .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .serviceArea .container .cards .mapContainer,
+  .serviceArea .container .cards .branchList {
+    width: 100%;
+  }
+  .serviceArea .container .cards .branchList {
+    flex-direction: column;
+  }
+  .serviceArea .container .cards .branchList .branchItem {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 991px) {
+  .serviceArea .container {
+    width: 80%;
+  }
+  .serviceArea .container h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .serviceArea .container .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .serviceArea .container .cards .mapContainer,
+  .serviceArea .container .cards .branchList {
+    width: 100%;
+  }
+  .serviceArea .container .cards .branchList {
+    flex-direction: row;
+  }
+  .serviceArea .container .cards .branchList .branchItem {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+  .serviceArea .container {
+    width: 80%;
+  }
+  .serviceArea .container h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  .serviceArea .container .cards .mapContainer,
+  .serviceArea .container .cards .branchList {
+    width: 100%;
+  }
+  .serviceArea .container .cards .branchList {
+    flex-direction: row;
+  }
+  .serviceArea .container .cards .branchList .branchItem {
+    width: 100%;
+  }
+}

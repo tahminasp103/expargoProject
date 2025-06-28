@@ -1,0 +1,214 @@
+.addTicket {
+    width: 100%;
+    display: flex;
+
+    .container {
+        width: 80%;
+        background-color: #F2F2F2;
+        padding: 30px;
+    font-family: "Inter", sans-serif;
+
+        .add {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h2 {
+                color: black;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 28px;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+                padding-left: 30px;
+
+                svg {
+                    color: rgb(79, 79, 79);
+                    transition: all 0.5s ease-in;
+
+                    &:hover {
+                        color: gray;
+                    }
+                }
+            }
+
+            .btn {
+                width: 8%;
+                display: flex;
+                gap: 10px;
+
+                button {
+                    width: 50%;
+                    padding: 10px 0;
+                    font-size: 25px;
+                    border-radius: 10px;
+                    border: none;
+                }
+
+                .btn1 {
+                    background-color: #E6AB3C;
+                    transition: all 0.4s ease-in;
+                    color: white;
+
+                    &:hover {
+                        background-color: #EBC885;
+                    }
+                }
+
+                .btn2 {
+                    color: black;
+                    transition: all 0.4s ease-in;
+                    background-color: white;
+                    &:hover {
+                        color: #7e7c78;
+                    }
+                }
+            }
+
+        }
+        /* AddTicket.module.scss */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;  // Elementlər arası məsafə
+
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #333;
+    font-size: 16px;
+
+    input,
+    select,
+    textarea {
+      margin-top: 8px;
+      padding: 10px 12px;
+      border: 1.5px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: inherit;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: #ffca22; /* Sarı rəng vurğusu */
+        box-shadow: 0 0 5px rgba(255, 202, 34, 0.6);
+      }
+    }
+
+    select {
+      cursor: pointer;
+      background-color: white;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+      max-height: 300px;
+      font-family: inherit;
+    }
+  }
+
+  button {
+    align-self: flex-start;
+    background-color: #ffca22; /* Sarı düymə */
+    color: #222;
+    font-weight: 700;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+
+    &:hover {
+      background-color: #e0b319;
+    }
+
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+
+    &.error {
+      color: #d93025; /* Qırmızı */
+      font-weight: 600;
+    }
+
+    &.success {
+      color: #42d77d; /* Yaşıl */
+      font-weight: 600;
+    }
+  }
+}
+/* AddTicket.module.scss */
+
+.empty {
+  color: #666;
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  padding: 15px 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+  li {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 15px 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #fff7cc;
+    }
+
+    b {
+      font-weight: 700;
+      color: #333;
+    }
+
+    small {
+      font-size: 12px;
+      color: #999;
+    }
+
+    p {
+      margin-top: 8px;
+      color: #555;
+      font-size: 14px;
+      white-space: pre-wrap; /* Mesajın sətirə sığması üçün */
+    }
+  }
+}
+
+
+    }
+}

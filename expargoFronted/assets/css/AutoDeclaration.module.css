@@ -1,0 +1,593 @@
+.autoDeclaration {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.autoDeclaration .container {
+  width: 80%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.autoDeclaration .container .text {
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+}
+.autoDeclaration .container .text h2 {
+  color: rgb(35, 35, 35);
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 900;
+}
+.autoDeclaration .container .text p {
+  color: rgb(68, 68, 68);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+.autoDeclaration .container .cards {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.autoDeclaration .container .cards .card {
+  width: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.autoDeclaration .container .cards .card img {
+  width: 80%;
+  margin-bottom: 30px;
+}
+.autoDeclaration .container .cards .card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 650;
+}
+.autoDeclaration .container .cards img {
+  width: 35%;
+}
+.autoDeclaration .container .login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.autoDeclaration .container .login button {
+  width: 15%;
+  height: 65px;
+  border: none;
+  background-color: transparent;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(127, 0, 255, 0.3);
+  margin: 20px;
+  transition: all 0.5s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.autoDeclaration .container .login button img {
+  width: 70%;
+}
+.autoDeclaration .container .login button:hover {
+  box-shadow: 0 8px 16px rgba(127, 0, 255, 0.5);
+}
+.autoDeclaration .container .login p {
+  width: 21%;
+  text-align: center;
+  color: rgb(68, 68, 68);
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+}
+.autoDeclaration .container .login a {
+  color: rgb(89, 49, 150);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  margin: 20px;
+  text-decoration: none;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease-in;
+}
+.autoDeclaration .container .login a svg {
+  font-size: 25px;
+}
+.autoDeclaration .container .login a:hover {
+  border-bottom: 1px solid rgb(89, 49, 150);
+}
+.autoDeclaration .container .login .alert {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.autoDeclaration .container .login .alert p {
+  width: 50%;
+  font-size: 18px;
+  line-height: 27px;
+}
+.autoDeclaration .container .login .alert img {
+  width: 3%;
+}
+.autoDeclaration .container .login img {
+  width: 100%;
+  margin: 30px;
+}
+.autoDeclaration .container .howDoesItWork {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.autoDeclaration .container .howDoesItWork h2 {
+  padding: 30px;
+  font-size: 38px;
+  line-height: 45px;
+  margin-top: 30px;
+  font-weight: 800;
+  color: rgb(35, 35, 35);
+}
+.autoDeclaration .container .howDoesItWork .cardss {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: linear-gradient(to bottom, rgba(180, 150, 255, 0.15) 0%, rgba(200, 180, 255, 0.08) 20%, rgba(220, 210, 255, 0.03) 50%);
+}
+.autoDeclaration .container .howDoesItWork .cardss .cardcontainer {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.autoDeclaration .container .howDoesItWork .cardss .cardcontainer .card {
+  width: 25%;
+  margin: 30px;
+  text-align: center;
+}
+.autoDeclaration .container .howDoesItWork .cardss .cardcontainer .card h3 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.autoDeclaration .container .sliderWrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.autoDeclaration .container .slider {
+  position: relative;
+}
+.autoDeclaration .container .slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
+}
+.autoDeclaration .container .slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.6);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: background 0.3s ease;
+}
+.autoDeclaration .container .slider button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.autoDeclaration .container .slider .prev {
+  left: 10px;
+  color: black;
+}
+.autoDeclaration .container .slider .next {
+  right: 10px;
+  color: black;
+}
+
+@media screen and (min-width: 300px) and (max-width: 578px) {
+  .autoDeclaration .container {
+    width: 100%;
+    padding: 0px;
+  }
+  .autoDeclaration .container .text {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .autoDeclaration .container .cards {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .autoDeclaration .container .cards .card {
+    width: 25%;
+    margin: 0;
+  }
+  .autoDeclaration .container .cards .card img {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .autoDeclaration .container .cards .card h3 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .autoDeclaration .container .cards img {
+    width: 7%;
+  }
+  .autoDeclaration .container .login button {
+    width: 50%;
+    height: 60px;
+  }
+  .autoDeclaration .container .login button img {
+    width: 50%;
+  }
+  .autoDeclaration .container .login p {
+    width: 80%;
+  }
+  .autoDeclaration .container .login .alert {
+    width: 100%;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .autoDeclaration .container .login .alert p {
+    width: 90%;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .autoDeclaration .container .login .alert img {
+    width: 7%;
+  }
+  .autoDeclaration .container .login img {
+    width: 100%;
+    margin: 10px;
+    height: 200px;
+  }
+  .autoDeclaration .container .howDoesItWork {
+    padding: 0px;
+  }
+  .autoDeclaration .container .howDoesItWork h2 {
+    padding: 0px;
+    font-size: 30px;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss {
+    width: 100%;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background: white;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer {
+    width: 100%;
+    justify-content: center;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer .card {
+    width: 70%;
+    margin: 30px;
+    text-align: center;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer .card h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+  .autoDeclaration .container .sliderWrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .autoDeclaration .container .slider {
+    position: relative;
+  }
+  .autoDeclaration .container .slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .autoDeclaration .container .slider button {
+    padding: 10px;
+  }
+  .autoDeclaration .container .slider .prev {
+    left: 10px;
+    color: black;
+  }
+  .autoDeclaration .container .slider .next {
+    right: 10px;
+    color: black;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .autoDeclaration .container {
+    width: 100%;
+    padding: 0px;
+  }
+  .autoDeclaration .container .text {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .autoDeclaration .container .cards {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .autoDeclaration .container .cards .card {
+    width: 25%;
+    margin: 0;
+  }
+  .autoDeclaration .container .cards .card img {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .autoDeclaration .container .cards .card h3 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .autoDeclaration .container .cards img {
+    width: 7%;
+  }
+  .autoDeclaration .container .login button {
+    width: 50%;
+    height: 60px;
+  }
+  .autoDeclaration .container .login button img {
+    width: 50%;
+  }
+  .autoDeclaration .container .login p {
+    width: 80%;
+  }
+  .autoDeclaration .container .login .alert {
+    width: 100%;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .autoDeclaration .container .login .alert p {
+    width: 90%;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .autoDeclaration .container .login .alert img {
+    width: 7%;
+  }
+  .autoDeclaration .container .login img {
+    width: 100%;
+    margin: 10px;
+    height: 200px;
+  }
+  .autoDeclaration .container .howDoesItWork {
+    padding: 0px;
+  }
+  .autoDeclaration .container .howDoesItWork h2 {
+    padding: 0px;
+    font-size: 30px;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss {
+    width: 100%;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background: white;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer {
+    width: 100%;
+    justify-content: center;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer .card {
+    width: 70%;
+    margin: 30px;
+    text-align: center;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer .card h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+  .autoDeclaration .container .sliderWrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .autoDeclaration .container .slider {
+    position: relative;
+  }
+  .autoDeclaration .container .slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .autoDeclaration .container .slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: background 0.3s ease;
+  }
+  .autoDeclaration .container .slider button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .autoDeclaration .container .slider .prev {
+    left: 10px;
+    color: black;
+  }
+  .autoDeclaration .container .slider .next {
+    right: 10px;
+    color: black;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .autoDeclaration .container {
+    width: 100%;
+    padding: 0px;
+  }
+  .autoDeclaration .container .text {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+  .autoDeclaration .container .cards {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .autoDeclaration .container .cards .card {
+    width: 25%;
+    margin: 0;
+  }
+  .autoDeclaration .container .cards .card img {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .autoDeclaration .container .cards .card h3 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .autoDeclaration .container .cards img {
+    width: 7%;
+  }
+  .autoDeclaration .container .login button {
+    width: 50%;
+    height: 60px;
+  }
+  .autoDeclaration .container .login button img {
+    width: 50%;
+  }
+  .autoDeclaration .container .login p {
+    width: 80%;
+  }
+  .autoDeclaration .container .login .alert {
+    width: 100%;
+    gap: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .autoDeclaration .container .login .alert p {
+    width: 90%;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .autoDeclaration .container .login .alert img {
+    width: 7%;
+  }
+  .autoDeclaration .container .login img {
+    width: 100%;
+    margin: 10px;
+    height: 200px;
+  }
+  .autoDeclaration .container .howDoesItWork {
+    padding: 0px;
+  }
+  .autoDeclaration .container .howDoesItWork h2 {
+    padding: 0px;
+    font-size: 30px;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss {
+    width: 100%;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background: white;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer {
+    width: 100%;
+    justify-content: center;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer .card {
+    width: 70%;
+    margin: 30px;
+    text-align: center;
+  }
+  .autoDeclaration .container .howDoesItWork .cardss .cardcontainer .card h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+  .autoDeclaration .container .sliderWrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .autoDeclaration .container .slider {
+    position: relative;
+  }
+  .autoDeclaration .container .slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .autoDeclaration .container .slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: background 0.3s ease;
+  }
+  .autoDeclaration .container .slider button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .autoDeclaration .container .slider .prev {
+    left: 10px;
+    color: black;
+  }
+  .autoDeclaration .container .slider .next {
+    right: 10px;
+    color: black;
+  }
+}

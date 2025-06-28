@@ -1,0 +1,425 @@
+.registration {
+    width: 100%;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    .registrationContainer {
+        width: 80%;
+        padding-left: 30px;
+        background-color: #F2F2F2;
+        h3 {
+            font-size: 27px;
+            line-height: normal;
+            font-weight: 500;
+            color: black;
+            display: flex;
+            align-items: center;
+            padding: 20px 30px;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+
+            img {
+                width: 18%;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 30px;
+            }
+
+            h2 {
+                font-size: 28px;
+                line-height: 30px;
+                font-weight: 700;
+                color: rgb(78, 0, 142);
+                text-align: center;
+                padding: 20px;
+            }
+
+            .registrationForm {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+
+                .inp {
+                    width: 47%;
+                    background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 5px 15px;
+                    margin: 10px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+
+                    label {
+                        font-family: "Inter", sans-serif;
+                        font-size: 18px;
+                        line-height: normal;
+                        font-weight: 400;
+                        color: black;
+                        margin: 10px;
+
+                    }
+
+                    select {
+                        border: none;
+                        background-color: transparent;
+                        padding: 10px;
+                        font-family: "Inter", sans-serif;
+                        color: rgb(127, 127, 127);
+                        font-size: 20px;
+                        line-height: normal;
+                        font-weight: 400;
+                    }
+
+                    input {
+                        border: none;
+                        background-color: transparent;
+                        padding: 10px 0;
+                        padding: 7px;
+                        border: none;
+                        font-family: "Inter", sans-serif;
+                        color: rgb(127, 127, 127);
+                        font-size: 20px;
+                        line-height: normal;
+                        font-weight: 400;
+                    }
+
+
+                }
+
+                .fin {
+                    width: 47%;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 5px 15px;
+                    margin: 10px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+
+                    svg {
+                        color: rgb(78, 0, 142);
+                        transition: all 0.3 ease-in;
+                        font-size: 23px;
+
+                        &:hover {
+                            color: rgb(154, 110, 191);
+                        }
+                    }
+
+                    div {
+                        display: flex;
+                        flex-direction: column;
+
+                        input {
+                            border: none;
+                            background-color: transparent;
+                            padding: 7px;
+                            border: none;
+                            font-family: "Inter", sans-serif;
+                            color: rgb(127, 127, 127);
+                            font-size: 20px;
+                            line-height: normal;
+                            font-weight: 400;
+                        }
+
+                        label {
+                            font-family: "Inter", sans-serif;
+                            font-size: 18px;
+                            line-height: normal;
+                            font-weight: 400;
+                            color: black;
+                            margin: 10px;
+
+                        }
+
+                    }
+                }
+
+                .code {
+                    width: 47%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 10px;
+
+                    .number {
+                        width: 30%;
+                        border-radius: 10px;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 3px;
+                        box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+                        &:hover{
+                            background-color: #F5F5F5;
+                        }
+
+                        label {
+                            width: 50%;
+                            margin-top: 5px;
+                            text-align: end;
+                            font-family: "Inter", sans-serif;
+                            font-size: 18px;
+                            line-height: normal;
+                            font-weight: 400;
+                            color: black;
+                            margin: 10px;
+                        }
+
+                        select {
+                            width: 50%;
+                            margin: 0 auto;
+                            border: none;
+                            padding: 7px;
+                            border: none;
+                            font-family: "Inter", sans-serif;
+                            color: rgb(7, 7, 7);
+                            font-size: 23px;
+                            line-height: normal;
+                            font-weight: 400;
+                            background-color: transparent;
+
+                        }
+
+                    }
+
+                    .phone {
+                        width: 60%;
+                        padding: 10px 15px;
+                        border-radius: 10px;
+                        background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+
+                        label {
+                            font-family: "Inter", sans-serif;
+                            font-size: 17px;
+                            line-height: normal;
+                            font-weight: 400;
+                            margin: 5px;
+                        }
+
+                        input {
+                            padding: 5px;
+                            border: none;
+                            font-family: "Inter", sans-serif;
+                            color: rgb(127, 127, 127);
+                            font-size: 23px;
+                            line-height: normal;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                .location {
+                    width: 100%;
+                    background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 5px;
+                    margin: 10px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+
+                    label {
+                        font-family: "Inter", sans-serif;
+                        font-size: 18px;
+                        line-height: normal;
+                        font-weight: 400;
+                        color: black;
+                        margin: 10px;
+
+                    }
+
+                    input {
+                        border: none;
+                        background-color: transparent;
+                        padding: 7px;
+                        border: none;
+                        font-family: "Inter", sans-serif;
+                        color: rgb(127, 127, 127);
+                        font-size: 20px;
+                        line-height: normal;
+                        font-weight: 400;
+                    }
+                }
+
+                .permission {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: white;
+                    margin: 10px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+                    padding: 20px;
+
+                    input[type="radio"] {
+                        transform: scale(2.5);
+                    }
+
+                    p {
+                        width: 90%;
+                        font-family: "Inter", sans-serif;
+                        color: black;
+                        font-size: 20px;
+                        line-height: normal;
+                        font-weight: 400;
+                    }
+                            svg {
+                        color: rgb(78, 0, 142);
+                        transition: all 0.3 ease-in;
+                        font-size: 23px;
+
+                        &:hover {
+                            color: rgb(154, 110, 191);
+                        }}
+
+                }
+                .btn{
+                    width: 100%;
+                    margin: 30px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .btn1{
+                        width: 50%;
+                        height: 65px;
+                        border-radius: 15px;
+                        border: none;
+                             font-family: "Inter", sans-serif;
+                        color: white;
+                        font-size: 18px;
+                        line-height: normal;
+                        font-weight: 600;
+                        background-color:#A37DC2 ;
+                    }
+                    .btn2{
+                        border: none;
+                        color:rgb(78, 0, 142) ;
+                                  font-family: "Inter", sans-serif;
+                        font-size: 18px;
+                        line-height: normal;
+                        font-weight: 600;
+                        margin: 0 auto;
+                        transition: all 0.3 ease-in;
+                        &:hover{
+                            color: #9162B7;
+                            cursor: pointer;
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .registration {
+    .menu{
+      display: none;
+    }
+    .registrationContainer {
+      width: 100%;
+      padding-left: 0;
+      
+      .container {
+        width: 95%;
+
+        .registrationForm {
+          .inp,
+          .fin,
+          .location,
+          .permission,
+          .btn .btn1 {
+            width: 100%;
+          }
+
+          .code {
+           
+            .number,
+            .phone {
+              width: 50%;
+              margin: 10px;
+            }
+          }
+
+          .btn {
+            flex-direction: column;
+            align-items: stretch;
+
+            .btn1 {
+              width: 100%;
+            }
+
+            .btn2 {
+              width: 100%;
+              text-align: center;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media screen and (max-width:1024px) {
+//   .registration {
+//     .menu{
+//       display: none;
+//     }
+//     .registrationContainer {
+//       width: 100%;
+//       padding-left: 0;
+      
+//       .container {
+//         width: 95%;
+
+//         .registrationForm {
+//           .inp,
+//           .fin,
+//           .location,
+//           .permission,
+//           .btn .btn1 {
+//             width: 100%;
+//           }
+
+//           .code {
+//             flex-direction: column;
+
+//             .number,
+//             .phone {
+//               width: 100%;
+//             }
+//           }
+
+//           .btn {
+//             flex-direction: column;
+//             align-items: stretch;
+
+//             .btn1 {
+//               width: 100%;
+//             }
+
+//             .btn2 {
+//               width: 100%;
+//               text-align: center;
+//               margin-top: 10px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

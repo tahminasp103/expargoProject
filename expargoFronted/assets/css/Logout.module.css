@@ -1,0 +1,53 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.overlay .logout {
+  width: 20%;
+  text-align: center;
+  background-color: white;
+  padding: 30px 10px;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+}
+.overlay .logout p {
+  color: black;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 25px;
+  margin: 30px 0;
+  padding-top: 15px;
+}
+.overlay .logout .btn {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.overlay .logout .btn button {
+  width: 48%;
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  line-height: 16px;
+  font-weight: 600;
+  font-size: 23px;
+}
+.overlay .logout .btn button:hover {
+  background-color: rgb(210, 210, 210);
+}
+.overlay .logout .btn .btn1 {
+  background-color: #92949C;
+}
+.overlay .logout .btn .btn2 {
+  background-color: #4E008E;
+}

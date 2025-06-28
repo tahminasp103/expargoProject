@@ -1,0 +1,194 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  .deleteUser {
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 40%;
+
+    .container {
+      display: flex;
+      padding: 30px;
+      flex-direction: column;
+      gap: 15px;
+      font-family: "Inter", sans-serif;
+
+      .text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+          color: black;
+          font-size: 25px;
+          font-weight: 500;
+        }
+
+        span {
+          color: rgb(78, 0, 142);
+          font-size: 23px;
+          font-weight: 500;
+        }
+      }
+
+      .inp {
+        width: 100%;
+        background-color: white;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 10px;
+
+        p {
+          color: rgb(102, 102, 102);
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        input[type="text"] {
+          width: 100%;
+          padding: 10px;
+          margin-top: 5px;
+          border: none;
+          font-size: 16px;
+        }
+
+        span,
+        strong {
+          font-size: 18px;
+          font-weight: 450;
+        }
+
+        strong {
+          color: black;
+        }
+
+        span {
+          color: rgb(78, 0, 142);
+        }
+      }
+
+      button {
+        background-color: rgb(160, 121, 192);
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 10px;
+        padding: 15px;
+        border: none;
+      }
+    }
+
+    .example {
+      font-size: 12px;
+      color: gray;
+    }
+  }
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .deleteButton {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .deleteButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  // 🔻 Responsive bölmə
+  @media (max-width: 1024px) {
+    .deleteUser {
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .deleteUser {
+      width: 80%;
+      padding: 20px;
+
+      .container {
+        padding: 20px;
+
+        .text h2 {
+          font-size: 20px;
+        }
+
+        .text span {
+          font-size: 20px;
+        }
+
+        .inp p,
+        .inp span,
+        .inp strong {
+          font-size: 16px;
+        }
+
+        button {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .deleteUser {
+      width: 90%;
+      padding: 15px;
+
+      .container {
+        padding: 15px;
+
+        .text {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 5px;
+
+          h2,
+          span {
+            font-size: 18px;
+          }
+        }
+
+        .inp {
+          padding: 8px;
+
+          input[type="text"] {
+            font-size: 14px;
+            padding: 8px;
+          }
+
+          p,
+          span,
+          strong {
+            font-size: 14px;
+          }
+        }
+
+        button {
+          font-size: 16px;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}

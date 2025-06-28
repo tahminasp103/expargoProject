@@ -1,0 +1,124 @@
+.loginUser {
+  width: 100%;
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+.loginUser .loginUserContainer {
+  width: 80%;
+  padding-left: 30px;
+  background-color: #F2F2F2;
+}
+.loginUser .loginUserContainer h3 {
+  font-size: 27px;
+  line-height: normal;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+.loginUser .loginUserContainer .container {
+  width: 60%;
+  margin: 0 auto;
+}
+.loginUser .loginUserContainer .container img {
+  width: 18%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.loginUser .loginUserContainer .container h2 {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+  color: rgb(78, 0, 142);
+  text-align: center;
+  padding: 20px;
+}
+.loginUser .loginUserContainer .container .loginForm {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.loginUser .loginUserContainer .container .loginForm .inp {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.loginUser .loginUserContainer .container .loginForm .inp label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 500;
+  color: black;
+  margin: 10px;
+}
+.loginUser .loginUserContainer .container .loginForm .inp svg {
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  font-size: 40px;
+}
+.loginUser .loginUserContainer .container .loginForm .inp input {
+  border: none;
+  background-color: transparent;
+  padding: 10px 0;
+  padding: 7px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: rgb(127, 127, 127);
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 400;
+}
+.loginUser .loginUserContainer .container .loginForm p {
+  color: rgb(78, 0, 142);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+  transition: all 0.2s ease-in;
+  padding: 30px 10px;
+}
+.loginUser .loginUserContainer .container .loginForm p:hover {
+  color: #A37DC2;
+}
+.loginUser .loginUserContainer .container .loginForm .btn1 {
+  width: 100%;
+  height: 65px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+  background-color: #A37DC2;
+  margin: 10px;
+}
+.loginUser .loginUserContainer .container .loginForm .btn2 {
+  width: 100%;
+  height: 65px;
+  border-radius: 15px;
+  margin: 10px;
+  border: none;
+  color: rgb(78, 0, 142);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+  border: 1px solid rgb(78, 0, 142);
+  transition: all 0.3 ease-in;
+}
+.loginUser .loginUserContainer .container .loginForm .btn2:hover {
+  border: 1px solid #9162B7;
+  color: #9162B7;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.shops {
+  margin-top: 30px;
+  padding-top: 30px;
+  position: relative;
+  top: 25vh;
+}
+.shops .container {
+  width: 100%;
+  margin: auto;
+}
+.shops .container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  line-height: 45px;
+  font-size: 40px;
+  color: rgb(35, 35, 35);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 30px 0;
+}
+.shops .container .imageWrapper {
+  padding: 30px 0;
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  gap: 20px;
+  cursor: grab;
+}
+.shops .container .imageWrapper::-webkit-scrollbar {
+  display: none;
+}
+.shops .container .imageSlide {
+  flex: 0 0 auto;
+  width: 10%;
+  height: auto;
+}
+.shops .container .imageSlide img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%) brightness(90%) contrast(80%) sepia(20%) hue-rotate(0deg);
+  transition: all 0.5s ease-in;
+}
+.shops .container .imageSlide img:hover {
+  filter: grayscale(0%);
+}
+
+@media screen and (min-width: 300px) and (max-width: 700px) {
+  .shops .container h2 {
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+  .shops .container .imageSlide {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .shops .container h2 {
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+  .shops .container .imageSlide {
+    width: 25%;
+  }
+}

@@ -1,0 +1,79 @@
+.expargoMenu {
+  width: 20%;
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.expargoMenu img {
+  width: 60%;
+  margin: 30px;
+}
+.expargoMenu .navBar {
+  margin-top: 30px;
+}
+.expargoMenu .navBar ul {
+  list-style: none;
+}
+.expargoMenu .navBar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+  color: rgb(42, 43, 42);
+  display: flex;
+  align-items: center;
+  padding: 25px 10px;
+  font-family: "Inter", sans-serif;
+}
+.expargoMenu .navBar ul li a:hover {
+  cursor: pointer;
+}
+.expargoMenu .navBar ul li a svg {
+  margin: 0 20px;
+  font-size: 30px;
+}
+.expargoMenu .navBar ul .line {
+  border: 0.1px solid rgb(249, 248, 248);
+}
+.expargoMenu .navBar ul .line1 {
+  border: 0.1px solid rgb(249, 248, 248);
+  margin-bottom: 30px;
+}
+.expargoMenu button {
+  width: 80%;
+  height: 55px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.expargoMenu .btn1 {
+  margin: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(78, 0, 142);
+  transition: all 0.2s ease-in;
+  border: none;
+}
+.expargoMenu .btn1:hover {
+  background-color: rgb(96, 26, 153);
+  cursor: pointer;
+}
+.expargoMenu .btn2 {
+  border: none;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(78, 0, 142);
+  transition: all 0.3s ease-in;
+}
+.expargoMenu .btn2:hover {
+  color: rgb(149, 102, 187);
+  cursor: pointer;
+}

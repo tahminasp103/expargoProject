@@ -1,0 +1,152 @@
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.login .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login .container .expargoLogin {
+  width: 80%;
+  background-color: rgb(242, 242, 242);
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.login .container .expargoLogin .loginContainer {
+  width: 80%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.login .container .expargoLogin .loginContainer .img {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.login .container .expargoLogin .loginContainer .img img {
+  margin-top: 30px;
+  width: 45%;
+}
+.login .container .expargoLogin .loginContainer .img p {
+  color: rgb(42, 43, 42);
+  font-weight: 700;
+  font-size: 14px;
+  margin: 15px 0;
+  text-align: center;
+  line-height: normal;
+}
+.login .container .expargoLogin .loginContainer .login {
+  display: flex;
+  justify-content: space-between;
+}
+.login .container .expargoLogin .loginContainer .login img {
+  width: 45%;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer {
+  width: 40%;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer .loginBtn1 {
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  margin: 0 auto;
+  gap: 5px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(78, 0, 142);
+  transition: all 0.2s ease-in;
+  border: none;
+  margin: 10px 0;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer .loginBtn1:hover {
+  background-color: rgb(96, 26, 153);
+  cursor: pointer;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer .loginBtn2 {
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: 1px solid rgb(78, 0, 142);
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(78, 0, 142);
+  transition: all 0.3s ease-in;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer .loginBtn2:hover {
+  color: rgb(149, 102, 187);
+  cursor: pointer;
+  border: 1px solid rgb(149, 102, 187);
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer .cards .card {
+  width: 28%;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer .cards .card svg {
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+  color: rgb(78, 0, 142);
+  padding: 25px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer .cards .card h4 {
+  color: rgb(42, 43, 42);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: normal;
+  margin: 15px 0 30px 0;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer h2 {
+  color: rgb(42, 43, 42);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer h2:hover {
+  color: rgb(122, 123, 123);
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer p {
+  color: rgb(42, 43, 42);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 30px;
+  line-height: 14px;
+  text-align: center;
+}
+.login .container .expargoLogin .loginContainer .login .expargologinContainer p:hover {
+  color: rgb(122, 123, 123);
+  cursor: pointer;
+}
+.login .container .expargoLogin .loginContainer span {
+  margin: 30px;
+  text-align: center;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+}

@@ -1,0 +1,390 @@
+.profile {
+    width: 100%;
+    display: flex;
+    .container {
+        width: 80%;
+        background-color: #F2F2F2;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        .user {
+            padding-bottom: 30px;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+
+            svg {
+                font-size: 70px;
+                width: 6%;
+                color: #47127D;
+                border-radius: 50%;
+                padding: 10px;
+                background-color: white;
+            }
+
+            h2 {
+                font-family: "Inter", sans-serif;
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+        }
+
+        .inp {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+                font-family: "Inter", sans-serif;
+
+            h2 {
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+
+            span {
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+            h5{
+                width: 98%;
+                margin: 10px 0;
+                color: rgb(146, 148, 156);
+                font-weight: 400;
+                font-size: 14px;
+            }
+            h4{
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .btn{
+                background-color: #47127D;
+                width: 5%;
+                .btn1{
+                    width: 2%;
+                   &:active{
+                    background-color: white;
+                   }
+                }
+                .btn2{
+                    width: 2%;
+                   &:active{
+                    background-color: white;
+                   }
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:768px) {
+   .profile {
+    .menu{
+        display: none;
+    }
+    .container {
+        width: 100%;
+        left: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        .user {
+            padding-bottom: 30px;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+
+            svg {
+                font-size: 30px;
+                width: 10%;
+                color: #47127D;
+                border-radius: 50%;
+                padding: 5px;
+                background-color: white;
+            }
+
+            h2 {
+                font-family: "Inter", sans-serif;
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+        }
+
+        .inp {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+                font-family: "Inter", sans-serif;
+
+            h2 {
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+
+            span {
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+            h5{
+                width: 98%;
+                margin: 10px 0;
+                color: rgb(146, 148, 156);
+                font-weight: 400;
+                font-size: 14px;
+            }
+            h4{
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .btn{
+                background-color: #47127D;
+                width: 5%;
+                .btn1{
+                    width: 2%;
+                   &:active{
+                    background-color: white;
+                   }
+                }
+                .btn2{
+                    width: 2%;
+                   &:active{
+                    background-color: white;
+                   }
+                }
+            }
+
+        }
+    }
+} 
+}
+@media screen and (min-width:769px) and (max-width:991px) {
+   .profile {
+    .menu{
+        width: 40%;
+        button{
+            padding: 5px;
+            font-size: 15px;
+        }
+    }
+    .container {
+        width: 70%;
+        left: 40%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        .user {
+            padding-bottom: 30px;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+
+            svg {
+                font-size: 30px;
+                width: 10%;
+                color: #47127D;
+                border-radius: 50%;
+                padding: 5px;
+                background-color: white;
+            }
+
+            h2 {
+                font-family: "Inter", sans-serif;
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+        }
+
+        .inp {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+                font-family: "Inter", sans-serif;
+
+            h2 {
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+
+            span {
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+            h5{
+                width: 98%;
+                margin: 10px 0;
+                color: rgb(146, 148, 156);
+                font-weight: 400;
+                font-size: 14px;
+            }
+            h4{
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .btn{
+                background-color: #47127D;
+                width: 5%;
+                .btn1{
+                    width: 2%;
+                   &:active{
+                    background-color: white;
+                   }
+                }
+                .btn2{
+                    width: 2%;
+                   &:active{
+                    background-color: white;
+                   }
+                }
+            }
+
+        }
+    }
+} 
+}
+@media screen and (min-width:991px) and (max-width:1024px) {
+   .profile {
+    .menu{
+        width: 40%;
+        button{
+            padding: 5px;
+            font-size: 15px;
+        }
+    }
+    .container {
+        width: 70%;
+        left: 40%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        .user {
+            padding-bottom: 30px;
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+
+            svg {
+                font-size: 30px;
+                width: 10%;
+                color: #47127D;
+                border-radius: 50%;
+                padding: 5px;
+                background-color: white;
+            }
+
+            h2 {
+                font-family: "Inter", sans-serif;
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+        }
+
+        .inp {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+                font-family: "Inter", sans-serif;
+
+            h2 {
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+
+            span {
+                font-size: 20px;
+                line-height: normal;
+                font-weight: 500;
+            }
+            h5{
+                width: 98%;
+                margin: 10px 0;
+                color: rgb(146, 148, 156);
+                font-weight: 400;
+                font-size: 14px;
+            }
+            h4{
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .btn{
+                background-color: #47127D;
+                width: 5%;
+                .btn1{
+                    width: 2%;
+                   &:active{
+                    background-color: white;
+                   }
+                }
+                .btn2{
+                    width: 2%;
+                   &:active{
+                    background-color: white;
+                   }
+                }
+            }
+
+        }
+    }
+} 
+}

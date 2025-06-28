@@ -1,0 +1,117 @@
+.news {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: 25vh;
+}
+.news h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 45px;
+  color: rgb(35, 35, 35);
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 30px 0;
+}
+.news .container {
+  width: 80%;
+  position: relative;
+}
+.news .grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  gap: 20px;
+}
+.news .newsCard {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.news .newsCard img {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  object-fit: cover;
+}
+.news .newsCard h2 {
+  margin-top: 10px;
+  padding: 30px;
+  font-size: 22px;
+  color: rgb(42, 43, 42);
+  font-family: "Inter", sans-serif;
+}
+.news .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background-color: gray;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+  transition: background-color 0.2s ease;
+}
+.news .arrow:hover {
+  background: #f2a900;
+  color: white;
+}
+.news .arrowLeft {
+  left: -50px;
+}
+.news .arrowRight {
+  right: -50px;
+}
+
+@media screen and (max-width: 700px) {
+  .grid {
+    justify-content: center;
+  }
+  .newsCard {
+    width: 100%;
+  }
+  .arrowLeft {
+    left: -20px;
+  }
+  .arrowRight {
+    right: -20px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+  .news h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .news .container {
+    width: 90%;
+  }
+  .news .grid {
+    justify-content: center;
+  }
+  .news .newsCard {
+    width: 45%;
+  }
+  .news .arrowLeft {
+    left: -30px;
+  }
+  .news .arrowRight {
+    right: -30px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .newsCard {
+    width: 30%;
+  }
+}

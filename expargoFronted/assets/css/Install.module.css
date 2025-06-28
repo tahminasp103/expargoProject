@@ -1,0 +1,237 @@
+.install {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  top: 40vh;
+}
+.install .container {
+  padding: 30px 30px 30px 10px;
+  width: 60%;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #8c3bd4 0%, #500290 100%);
+}
+.install .container .img1 {
+  width: 43%;
+  position: absolute;
+  left: -90px;
+  bottom: -40px;
+  z-index: 3;
+}
+.install .container h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 700;
+  color: white;
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+.install .container .img {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.install .container .img a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13%;
+}
+.install .container .img a img {
+  width: 100%;
+}
+.install .container .text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.install .container .text span {
+  color: rgb(209, 151, 255);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.install .container .text .wiew {
+  display: block;
+  width: 28%;
+  text-align: end;
+}
+.install .container .logo {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+.install .container .logo a img {
+  box-shadow: 0 0 2px rgba(209, 151, 255, 0.5);
+  border-radius: 5px;
+  padding: 12px;
+  height: auto;
+}
+.install .container .star {
+  width: 18%;
+  position: absolute;
+  top: -90px;
+  right: -90px;
+}
+.install .visa {
+  position: relative;
+  top: 10vh;
+  width: 15%;
+  margin-bottom: 30px;
+}
+@media (max-width: 1200px) {
+  .install .container {
+    width: 75%;
+  }
+  .install .container .img1 {
+    width: 40%;
+    left: -60px;
+  }
+  .install .container .star {
+    width: 20%;
+    top: -60px;
+    right: -60px;
+  }
+  .install .container .logo {
+    width: 60%;
+  }
+  .install .visa {
+    width: 18%;
+  }
+}
+@media (max-width: 992px) {
+  .install .container {
+    width: 85%;
+    padding: 25px;
+  }
+  .install .container .img1 {
+    width: 35%;
+    left: -40px;
+  }
+  .install .container h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .install .container .logo {
+    width: 70%;
+  }
+  .install .container .star {
+    width: 22%;
+    top: -50px;
+    right: -40px;
+  }
+  .install .visa {
+    width: 20%;
+  }
+}
+@media (max-width: 768px) {
+  .install .container {
+    width: 90%;
+    border-radius: 30px;
+  }
+  .install .container .img1 {
+    display: none;
+  }
+  .install .container .img {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .install .container .img a {
+    width: 40%;
+  }
+  .install .container .text {
+    flex-direction: column;
+    align-items: center;
+  }
+  .install .container .text .wiew {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .install .container .logo {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .install .container .star {
+    display: none;
+  }
+  .install .visa {
+    width: 25%;
+  }
+}
+@media (max-width: 480px) {
+  .install {
+    top: 10vh;
+  }
+  .install .container {
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .install .container h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .install .container .img a {
+    width: 45%;
+  }
+  .install .container .logo {
+    width: 90%;
+    gap: 10px;
+  }
+  .install .container .logo a img {
+    padding: 8px;
+  }
+  .install .visa {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1201px) {
+  .install {
+    top: 40vh;
+  }
+  .install .container {
+    width: 50%;
+    padding: 40px;
+  }
+  .install .container h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .install .container .img1 {
+    width: 40%;
+    left: -120px;
+    bottom: -50px;
+  }
+  .install .container .logo {
+    width: 50%;
+    gap: 25px;
+  }
+  .install .container .logo a img {
+    padding: 14px;
+  }
+  .install .container .star {
+    display: none;
+  }
+  .install .visa {
+    width: 12%;
+  }
+}

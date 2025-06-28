@@ -1,0 +1,19 @@
+.faq {
+  width: 100%;
+  position: relative;
+  top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq .container {
+  width: 80%;
+}
+.faq .container h2 {
+  font-size: 40px;
+  line-height: 55px;
+  color: #232323;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}

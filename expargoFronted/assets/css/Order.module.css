@@ -1,0 +1,223 @@
+.order {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.order .container {
+  width: 100%;
+  padding: 30px;
+  background-color: #F2F2F2;
+  font-family: "Inter", sans-serif;
+}
+.order .container h2 {
+  color: black;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.order .container h2 svg {
+  color: rgb(79, 79, 79);
+  transition: all 0.5s ease-in;
+}
+.order .container h2 svg:hover {
+  color: gray;
+}
+.order .container .currencyToggle {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #E2E2E2;
+  padding: 2px;
+}
+.order .container .currencyToggle button {
+  width: 50%;
+  padding: 10px;
+  transition: background-color 0.3s;
+  border: none;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: #E2E2E2;
+  border-radius: 7px;
+  font-family: "Inter", sans-serif;
+  transition: all 0.4s ease-in;
+}
+.order .container .currencyToggle button:hover {
+  color: rgb(133, 133, 133);
+}
+.order .container .currencyToggle button.active {
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.order .container .orderCards {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.order .container .orderCards .formContainer {
+  width: 49%;
+}
+.order .container .orderCards .formContainer .orderForm .number {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order .container .orderCards .formContainer .orderForm .number p {
+  color: rgb(78, 0, 142);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.order .container .orderCards .formContainer .orderForm .number button {
+  width: 7%;
+  margin-top: 30px;
+  border: none;
+  background-color: #ED6868;
+  border-radius: 10px;
+  display: flex;
+  padding-bottom: 3px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in;
+}
+.order .container .orderCards .formContainer .orderForm .number button:hover {
+  background-color: #f57b7b;
+}
+.order .container .orderCards .formContainer .orderForm .number button svg {
+  font-size: 33px;
+  color: white;
+}
+.order .container .orderCards .formContainer .orderForm .inp {
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0 0 8px 2px rgba(220, 220, 220, 0.5);
+  border-radius: 10px;
+}
+.order .container .orderCards .formContainer .orderForm .inp .alert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order .container .orderCards .formContainer .orderForm .inp .alert h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+  line-height: 24px;
+  margin-left: 10px;
+}
+.order .container .orderCards .formContainer .orderForm .inp .alert span {
+  color: rgb(235, 87, 87);
+  font-weight: 700;
+  font-size: 14px;
+}
+.order .container .orderCards .formContainer .orderForm .inp input {
+  border: none;
+  width: 100%;
+  padding: 20px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.order .container .orderCards .formContainer .orderForm .inp .cardBtn {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order .container .orderCards .formContainer .orderForm .inp .cardBtn .handleAppOrder {
+  width: 49%;
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+}
+.order .container .orderCards .formContainer .cardBtn {
+  width: 100%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order .container .orderCards .formContainer .cardBtn button {
+  width: 49.5%;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.order .container .orderCards .formContainer .cardBtn button svg {
+  font-size: 23px;
+}
+.order .container .orderCards .formContainer .cardBtn .btn1 {
+  background-color: #4E008E;
+  transition: all 0.3s ease-in;
+}
+.order .container .orderCards .formContainer .cardBtn .btn1:hover {
+  background-color: #6f1cb3;
+}
+.order .container .orderCards .formContainer .cardBtn .btn2 {
+  background-color: #F9DB7E;
+}
+.order .container .orderCards .orderCalculator {
+  width: 48%;
+  padding: 30px;
+  margin: 20px;
+}
+.order .container .orderCards .orderCalculator .calculatorContainer {
+  width: 100%;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 8px 5px rgba(220, 220, 220, 0.5);
+}
+.order .container .orderCards .orderCalculator .calculatorContainer h3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(102, 102, 102);
+  font-weight: 400;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.order .container .orderCards .orderCalculator .calculatorContainer .line {
+  width: 100%;
+  border: 1px solid rgb(216, 216, 216);
+}
+.order .container .orderCards .orderCalculator .calculatorContainer p {
+  color: black;
+}
+.order .container .orderCards .orderCalculator button {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 20px;
+  padding: 20px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+  background-color: #90E3B1;
+  font-family: "Inter", sans-serif;
+}

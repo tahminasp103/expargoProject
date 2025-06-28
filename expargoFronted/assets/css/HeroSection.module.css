@@ -1,0 +1,401 @@
+.heroSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 100vh;
+  background-image: url("../images/heroImage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  margin-top: 30px;
+}
+.heroSection .container {
+  width: 75%;
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.heroSection .container .textContainer {
+  width: 40%;
+  padding: 30px;
+  padding: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.heroSection .container .textContainer h1 {
+  font-weight: 700;
+  line-height: 82px;
+  font-size: 70px;
+  padding-top: 30px;
+}
+.heroSection .container .textContainer p {
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+  line-height: 33px;
+  font-weight: 500;
+  margin: 30px 0;
+  padding: 10px 0 30px 0;
+  letter-spacing: 1px;
+}
+.heroSection .container .textContainer .app {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 15px 0 20px 0;
+  padding-top: 30px;
+}
+.heroSection .container .textContainer .app img {
+  width: 10%;
+}
+.heroSection .container .textContainer .app span {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+}
+.heroSection .container .textContainer .btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.heroSection .container .textContainer .btn button {
+  width: 49%;
+  height: 65px;
+  background-color: transparent;
+  border-radius: 13px;
+  color: white;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.heroSection .container .textContainer .btn button.btn1 {
+  background-color: rgb(239, 163, 29);
+  border: none;
+}
+.heroSection .container .textContainer .btn button.btn1:hover {
+  background-color: rgb(215, 142, 15);
+}
+.heroSection .container .textContainer .btn button.btn2 {
+  border: 1px solid rgb(177, 105, 100);
+  color: rgb(177, 105, 100);
+}
+.heroSection .container .textContainer .btn button.btn2:hover {
+  background-color: rgb(239, 163, 29);
+  color: rgb(23, 20, 31);
+}
+.heroSection .container .calculator {
+  width: 30%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heroSection .container .calculator h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color: rgb(68, 68, 68);
+  text-align: center;
+  margin: 30px 0;
+}
+.heroSection .container .calculator label {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 600;
+  color: rgb(68, 68, 68);
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.heroSection .container .calculator .inp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px;
+  background-color: #F5F5F5;
+}
+.heroSection .container .calculator .inp input,
+.heroSection .container .calculator .inp select {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: rgb(68, 68, 68);
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+.heroSection .container .calculator .inp img {
+  width: 10%;
+}
+.heroSection .container .calculator button {
+  width: 100%;
+  padding: 25px;
+  border: none;
+  background-color: rgb(242, 169, 0);
+  color: white;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 30px 0 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.heroSection .container .calculator button:hover {
+  background-color: rgb(215, 142, 15);
+}
+
+/* Mobile (XS) */
+@media (max-width: 576px) {
+  .heroSection {
+    padding: 30px 0;
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+    margin-top: 30px;
+  }
+  .heroSection .container {
+    margin-top: 30px;
+    width: 95%;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .heroSection .container .textContainer {
+    width: 100%;
+    padding: 30px 0;
+    justify-content: center;
+    text-align: center;
+  }
+  .heroSection .container .textContainer h1 {
+    font-size: 30px;
+    line-height: 36px;
+    width: 100%;
+    margin: 0 auto 15px;
+  }
+  .heroSection .container .textContainer p {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 10px auto;
+    padding: 0;
+  }
+  .heroSection .container .textContainer .app {
+    justify-content: center;
+    gap: 10px;
+  }
+  .heroSection .container .textContainer .app span {
+    font-size: 14px;
+  }
+  .heroSection .container .textContainer .btn {
+    justify-content: center;
+  }
+  .heroSection .container .textContainer .btn button {
+    width: 120px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .heroSection .container .calculator {
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+  }
+  .heroSection .container .calculator .inp {
+    padding: 15px;
+    gap: 15px;
+  }
+  .heroSection .container .calculator .inp input,
+  .heroSection .container .calculator .inp select {
+    font-size: 14px;
+    padding: 12px 10px;
+  }
+  .heroSection .container .calculator button {
+    width: 90%;
+    padding: 15px;
+    font-size: 18px;
+    margin: 20px auto 0;
+  }
+}
+/* Tablet (SM) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .heroSection {
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .heroSection .container {
+    width: 90%;
+    margin-top: 30px;
+    padding-top: 30px;
+    flex-direction: column;
+    padding: 0;
+  }
+  .heroSection .container .textContainer {
+    width: 100%;
+    padding: 30px 0;
+    justify-content: center;
+    text-align: center;
+  }
+  .heroSection .container .textContainer h1 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 10px;
+  }
+  .heroSection .container .textContainer p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 15px auto;
+  }
+  .heroSection .container .textContainer .btn {
+    justify-content: center;
+  }
+  .heroSection .container .textContainer .btn button {
+    width: 140px;
+    height: 55px;
+    font-size: 16px;
+  }
+  .heroSection .container .calculator {
+    width: 100%;
+    padding: 30px;
+  }
+  .heroSection .container .calculator .inp {
+    padding: 20px;
+    gap: 20px;
+  }
+  .heroSection .container .calculator .inp input,
+  .heroSection .container .calculator .inp select {
+    font-size: 16px;
+    padding: 14px 10px;
+  }
+  .heroSection .container .calculator button {
+    width: 80%;
+    height: 65px;
+    font-size: 18px;
+    margin: 20px auto 0;
+  }
+}
+/* Small Desktop (MD) */
+@media (min-width: 769px) and (max-width: 991px) {
+  .heroSection {
+    padding: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heroSection .container {
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 80%;
+    flex-direction: column;
+    padding: 0;
+  }
+  .heroSection .container .textContainer {
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  .heroSection .container .textContainer h1 {
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 15px;
+  }
+  .heroSection .container .textContainer p {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 20px auto;
+  }
+  .heroSection .container .textContainer .btn {
+    justify-content: center;
+    padding: 10px;
+  }
+  .heroSection .container .textContainer .btn button {
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+  }
+  .heroSection .container .calculator {
+    width: 90%;
+    padding: 20px;
+  }
+  .heroSection .container .calculator .inp {
+    padding: 20px;
+    gap: 20px;
+  }
+  .heroSection .container .calculator .inp input,
+  .heroSection .container .calculator .inp select {
+    font-size: 16px;
+    padding: 14px 10px;
+  }
+  .heroSection .container .calculator button {
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 20px auto 0;
+  }
+}
+/* Medium Desktop (LG) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heroSection {
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .heroSection .container {
+    width: 75%;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  .heroSection .container .textContainer {
+    width: 40%;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: left;
+  }
+  .heroSection .container .calculator {
+    width: 30%;
+  }
+}
+/* Large Desktop (XL) */
+@media (min-width: 1200px) {
+  .heroSection .container {
+    width: 75%;
+    flex-direction: row;
+  }
+  .heroSection .container .textContainer {
+    width: 40%;
+    text-align: left;
+  }
+  .heroSection .container .calculator {
+    width: 30%;
+  }
+}

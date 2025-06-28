@@ -1,0 +1,148 @@
+.seaTransportation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20vh;
+    .container{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        .text{
+            width: 32%;
+            padding: 30px;
+            h2{
+                font-size: 50px;
+                line-height: 60px;
+                font-weight: 700;
+                margin: 20px 0;
+                color: rgb(78, 0, 142);
+                font-family: "Montserrat", sans-serif;
+            }
+            p{
+                color: rgb(65, 67, 77);
+                font-family: "Inter", sans-serif;
+                 font-size: 25px;
+                line-height: 35px;
+                font-weight:400;
+            }
+        }
+        img{
+            width: 55%;
+        }
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:578px) {
+  .seaTransportation{
+    top: 20vh;
+    .container{
+        width: 100%;
+        .text{
+            width: 100%;
+            padding: 10px;
+            h2{
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p{
+                color: rgb(65, 67, 77);
+                font-family: "Inter", sans-serif;
+                 font-size: 25px;
+                line-height: 35px;
+                font-weight:400;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+}  
+}
+@media screen and (min-width:579px) and (max-width:700px) {
+  .seaTransportation{
+    top: 20vh;
+    .container{
+        width: 95%;
+
+        .text{
+            width: 100%;
+            padding: 10px;
+            h2{
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p{
+                color: rgb(65, 67, 77);
+                font-family: "Inter", sans-serif;
+                 font-size: 25px;
+                line-height: 35px;
+                font-weight:400;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+}  
+}
+@media screen and (min-width:700px) and (max-width:991px) {
+  .seaTransportation{
+    top: 20vh;
+    .container{
+        width: 80%;
+
+        .text{
+            width: 100%;
+            padding: 10px;
+            h2{
+                font-size: 40px;
+                line-height: 50px;
+            }
+            p{
+                width: 60%;
+                color: rgb(65, 67, 77);
+                font-family: "Inter", sans-serif;
+                 font-size: 25px;
+                line-height: 35px;
+                font-weight:400;
+            }
+        }
+        img{
+            width: 100%;
+        }
+    }
+}  
+}
+// @media screen and (min-width:991px) {
+//   .seaTransportation{
+//     top: 20vh;
+//     .container{
+//         width: 80%;
+
+//         .text{
+//             width: 48%;
+//             padding: 10px;
+//             h2{
+//                 font-size: 40px;
+//                 line-height: 50px;
+//             }
+//             p{
+//                 width: 60%;
+//                 color: rgb(65, 67, 77);
+//                 font-family: "Inter", sans-serif;
+//                  font-size: 25px;
+//                 line-height: 35px;
+//                 font-weight:400;
+//             }
+//         }
+//         img{
+//             width: 48%;
+//         }
+//     }
+// }  
+// }
